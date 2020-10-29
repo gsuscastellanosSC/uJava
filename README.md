@@ -10,7 +10,9 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
            sudo snap install netbeans --classic
         ***How remove in Ubuntu***
            sudo snap remove netbeans    
-
+***Class#4***
+    ***4. Ejercicio: Hola Mundo con Apache Netbeans***
+        https://github.com/gsuscastellanosSC/universidadJavaEspecialistaJavaDesdeCeroMaster.git/Class#4
 
 
 
@@ -20,4 +22,4 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     Donwnload Apache NetBeans:
         https://netbeans.apache.org/download/index.html
     Install Apache NerBeans:
-        https://tecadmin.net/install-netbeans-on-ubuntu-20-04/#:~:text=We%20use%20snap%20package%20to,command%20to%20install%20Netbeans%20IDE.
+        https://tecadmin.net/install-netbeans-on-ubuntu-20-04/#:~:text=We%20use%20snap%20package%20to,command%20to%20install%20Netbeans%20IDE
