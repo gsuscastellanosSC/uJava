@@ -11,8 +11,15 @@ package fundamentosJava;
  */
 public class Variables {
     public static void main (String args[]){
-        int varEntero = 10;
-        System.out.println(varEntero);
+        int myInt = 10;
+        System.out.println(myInt);
+        myInt = 5;
+        System.out.println(myInt);
+        
+        String myString="saludos";
+        System.out.println(myString);
+        myString="adios";
+        System.out.println(myString);
     }
     
 }

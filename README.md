@@ -23,6 +23,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
             ***Clases***
             ***Interfaces***
             ***Arrays***
+***Class#7***
+    ***7. Tipos Enteros y Tipo String en Java***
 ***Links***
     Download jdk:
         https://www.oracle.com/java/technologies/javase-jdk15-downloads.html
