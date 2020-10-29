@@ -21,10 +21,10 @@ public class Variables {
         myString="adios";
         System.out.println(myString);
         
-        var myIntNewInJava = 10;
-        System.out.println(myIntNewInJava);
-        var myStringNewInJava = "Desde java 10 var infiere el tipo de dato.";
-        System.out.println(myString+myStringNewInJava);
+        var $myIntNewInJava = 10;
+        System.out.println($myIntNewInJava);
+        var _myStringNewInJava = "Desde java 10 var infiere el tipo de dato.";
+        System.out.println(myString+_myStringNewInJava);
         
     }
     

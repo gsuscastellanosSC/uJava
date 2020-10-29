@@ -27,6 +27,12 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***7. Tipos Enteros y Tipo String en Java***
 ***Class#8***
     ***8. Inferencia de Tipos en Java***
+***Class#9***
+    ***9. Ejercicio: Reglas para definir una variable en Java***
+        Uso de CamelCase
+        ***Ejm***
+            $CamelCase;
+            _CamelCase;
 ***Links***
     Download jdk:
         https://www.oracle.com/java/technologies/javase-jdk15-downloads.html
