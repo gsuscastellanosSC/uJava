@@ -12,10 +12,9 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
            sudo snap remove netbeans    
 ***Class#4***
     ***4. Ejercicio: Hola Mundo con Apache Netbeans***
-        https://github.com/gsuscastellanosSC/universidadJavaEspecialistaJavaDesdeCeroMaster.git/Class#4
-
-
-
+***Class#5***
+    ***5. Saludar (Solución)***
+        https://github.com/gsuscastellanosSC/universidadJavaEspecialistaJavaDesdeCeroMaster/blob/main/UniversidadJava/src/fundamentosJava/HolaMundo.java
 ***Links***
     Download jdk:
         https://www.oracle.com/java/technologies/javase-jdk15-downloads.html
