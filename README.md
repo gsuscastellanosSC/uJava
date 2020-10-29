@@ -14,7 +14,15 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***4. Ejercicio: Hola Mundo con Apache Netbeans***
 ***Class#5***
     ***5. Saludar (Solución)***
-        https://github.com/gsuscastellanosSC/universidadJavaEspecialistaJavaDesdeCeroMaster/blob/main/UniversidadJava/src/fundamentosJava/HolaMundo.java
+***Class#6***
+    ***6. Variables en Java***
+        ***Tipos Primitivos***
+            ***Tipos Enteros***
+            ***Tipos Flotantes***
+        ***Tipos Referenciados(Tipo Object)***
+            ***Clases***
+            ***Interfaces***
+            ***Arrays***
 ***Links***
     Download jdk:
         https://www.oracle.com/java/technologies/javase-jdk15-downloads.html
@@ -22,3 +30,7 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
         https://netbeans.apache.org/download/index.html
     Install Apache NerBeans:
         https://tecadmin.net/install-netbeans-on-ubuntu-20-04/#:~:text=We%20use%20snap%20package%20to,command%20to%20install%20Netbeans%20IDE
+    Hello world:
+        https://github.com/gsuscastellanosSC/universidadJavaEspecialistaJavaDesdeCeroMaster/blob/main/UniversidadJava/src/fundamentosJava/HelloWorld.java
+    Types variables:
+        https://github.com/gsuscastellanosSC/universidadJavaEspecialistaJavaDesdeCeroMaster/blob/main/UniversidadJava/src/fundamentosJava/Variables.java
