@@ -37,6 +37,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***10. Ejercicio: Concatenación con Java***
         ***Format text in NetBeans***
             Alt+Shift+F
+***Class#11***
+    ***11. Ejercicio: Caracteres Especiales con Java***
 ***Links***
     Download jdk:
         https://www.oracle.com/java/technologies/javase-jdk15-downloads.html
@@ -50,3 +52,5 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
         https://github.com/gsuscastellanosSC/universidadJavaEspecialistaJavaDesdeCeroMaster/blob/main/UniversidadJava/src/fundamentosJava/Variables.java
     Concatenate Strings:
         https://github.com/gsuscastellanosSC/universidadJavaEspecialistaJavaDesdeCeroMaster/blob/main/UniversidadJava/src/fundamentosJava/ConcatenateStrings.java
+    Spacial Characters:
+        https://github.com/gsuscastellanosSC/universidadJavaEspecialistaJavaDesdeCeroMaster/blob/main/UniversidadJava/src/fundamentosJava/SpecialCharacters.java
