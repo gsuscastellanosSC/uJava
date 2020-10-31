@@ -39,8 +39,10 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
             Alt+Shift+F
 ***Class#11***
     ***11. Ejercicio: Caracteres Especiales con Java***
-***Clase#12***
+***Class#12***
     ***12. Ejercicio: Clase Scanner en Java***
+***Class#13***
+    ***13. Detalles Libro (Solución)***
 ***Links***
     Download jdk:
         https://www.oracle.com/java/technologies/javase-jdk15-downloads.html
@@ -58,3 +60,5 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
         https://github.com/gsuscastellanosSC/universidadJavaEspecialistaJavaDesdeCeroMaster/blob/main/UniversidadJava/src/fundamentosJava/SpecialCharacters.java
     Scanner Class:
         https://github.com/gsuscastellanosSC/universidadJavaEspecialistaJavaDesdeCeroMaster/blob/main/UniversidadJava/src/fundamentosJava/ScannerClass.java
+    Tarea 2 Solución:
+        https://github.com/gsuscastellanosSC/universidadJavaEspecialistaJavaDesdeCeroMaster/blob/main/UniversidadJava/src/fundamentosJava/Tarea2DetallesLibro.java
