@@ -43,6 +43,29 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***12. Ejercicio: Clase Scanner en Java***
 ***Class#13***
     ***13. Detalles Libro (Solución)***
+***Class#14***
+    ***14. Tipos Primitivos en Java***
+        ***Tipos Enteros***
+            byte
+                8 bits
+            short
+                16 bits
+            char
+                16 bits
+            int
+                32 bits
+            long
+                64 bits
+        ***Tipos Flotantes***
+            float
+                32 bits
+            double
+                32 bits
+        ***Tipo boolean***
+            true
+                1
+            false
+                0
 ***Links***
     Download jdk:
         https://www.oracle.com/java/technologies/javase-jdk15-downloads.html
@@ -62,3 +85,5 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
         https://github.com/gsuscastellanosSC/universidadJavaEspecialistaJavaDesdeCeroMaster/blob/main/UniversidadJava/src/fundamentosJava/ScannerClass.java
     Tarea 2 Solución:
         https://github.com/gsuscastellanosSC/universidadJavaEspecialistaJavaDesdeCeroMaster/blob/main/UniversidadJava/src/fundamentosJava/Tarea2DetallesLibro.java
+    Tipos Primitivos en Java:
+        https://github.com/gsuscastellanosSC/universidadJavaEspecialistaJavaDesdeCeroMaster/blob/main/UniversidadJava/src/fundamentosJava/TypesVar.java
