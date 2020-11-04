@@ -66,24 +66,26 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
                 1
             false
                 0
+***Class#15***
+    ***15. Tipos Numéricos Enteros***
 ***Links***
-    Download jdk:
-        https://www.oracle.com/java/technologies/javase-jdk15-downloads.html
-    Donwnload Apache NetBeans:
-        https://netbeans.apache.org/download/index.html
-    Install Apache NerBeans:
-        https://tecadmin.net/install-netbeans-on-ubuntu-20-04/#:~:text=We%20use%20snap%20package%20to,command%20to%20install%20Netbeans%20IDE
-    Hello world:
-        https://github.com/gsuscastellanosSC/universidadJavaEspecialistaJavaDesdeCeroMaster/blob/main/UniversidadJava/src/fundamentosJava/HelloWorld.java
-    Types variables:
-        https://github.com/gsuscastellanosSC/universidadJavaEspecialistaJavaDesdeCeroMaster/blob/main/UniversidadJava/src/fundamentosJava/Variables.java
-    Concatenate Strings:
-        https://github.com/gsuscastellanosSC/universidadJavaEspecialistaJavaDesdeCeroMaster/blob/main/UniversidadJava/src/fundamentosJava/ConcatenateStrings.java
-    Spacial Characters:
-        https://github.com/gsuscastellanosSC/universidadJavaEspecialistaJavaDesdeCeroMaster/blob/main/UniversidadJava/src/fundamentosJava/SpecialCharacters.java
-    Scanner Class:
-        https://github.com/gsuscastellanosSC/universidadJavaEspecialistaJavaDesdeCeroMaster/blob/main/UniversidadJava/src/fundamentosJava/ScannerClass.java
-    Tarea 2 Solución:
-        https://github.com/gsuscastellanosSC/universidadJavaEspecialistaJavaDesdeCeroMaster/blob/main/UniversidadJava/src/fundamentosJava/Tarea2DetallesLibro.java
     Tipos Primitivos en Java:
         https://github.com/gsuscastellanosSC/universidadJavaEspecialistaJavaDesdeCeroMaster/blob/main/UniversidadJava/src/fundamentosJava/TypesVar.java
+    Tarea 2 Solución:
+        https://github.com/gsuscastellanosSC/universidadJavaEspecialistaJavaDesdeCeroMaster/blob/main/UniversidadJava/src/fundamentosJava/Tarea2DetallesLibro.java
+    Scanner Class:
+        https://github.com/gsuscastellanosSC/universidadJavaEspecialistaJavaDesdeCeroMaster/blob/main/UniversidadJava/src/fundamentosJava/ScannerClass.java
+    Spacial Characters:
+        https://github.com/gsuscastellanosSC/universidadJavaEspecialistaJavaDesdeCeroMaster/blob/main/UniversidadJava/src/fundamentosJava/SpecialCharacters.java
+    Concatenate Strings:
+        https://github.com/gsuscastellanosSC/universidadJavaEspecialistaJavaDesdeCeroMaster/blob/main/UniversidadJava/src/fundamentosJava/ConcatenateStrings.java
+    Types variables:
+        https://github.com/gsuscastellanosSC/universidadJavaEspecialistaJavaDesdeCeroMaster/blob/main/UniversidadJava/src/fundamentosJava/Variables.java
+    Hello world:
+        https://github.com/gsuscastellanosSC/universidadJavaEspecialistaJavaDesdeCeroMaster/blob/main/UniversidadJava/src/fundamentosJava/HelloWorld.java
+    Install Apache NerBeans:
+        https://tecadmin.net/install-netbeans-on-ubuntu-20-04/#:~:text=We%20use%20snap%20package%20to,command%20to%20install%20Netbeans%20IDE
+    Donwnload Apache NetBeans:
+        https://netbeans.apache.org/download/index.html
+    Download jdk:
+        https://www.oracle.com/java/technologies/javase-jdk15-downloads.html
