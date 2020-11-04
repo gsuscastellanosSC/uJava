@@ -60,7 +60,7 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
             float
                 32 bits
             double
-                32 bits
+                64 bits
         ***Tipo boolean***
             true
                 1
@@ -68,9 +68,11 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
                 0
 ***Class#15***
     ***15. Tipos Numéricos Enteros***
+***Class#16***
+    ***16. Ejercicio: Tipos Primitivos tipos Flotantes***
 ***Links***
     Tipos Primitivos en Java:
-        https://github.com/gsuscastellanosSC/universidadJavaEspecialistaJavaDesdeCeroMaster/blob/main/UniversidadJava/src/fundamentosJava/TypesVar.java
+        https://github.com/gsuscastellanosSC/universidadJavaEspecialistaJavaDesdeCeroMaster/blob/main/UniversidadJava/src/fundamentosJava/TypesNumbers.java
     Tarea 2 Solución:
         https://github.com/gsuscastellanosSC/universidadJavaEspecialistaJavaDesdeCeroMaster/blob/main/UniversidadJava/src/fundamentosJava/Tarea2DetallesLibro.java
     Scanner Class:
