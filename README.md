@@ -70,6 +70,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***15. Tipos Numéricos Enteros***
 ***Class#16***
     ***16. Ejercicio: Tipos Primitivos tipos Flotantes***
+***Class#17***
+    ***7. Ejercicio: Inferencia de Tipos con Var y tipos Primitivos***
 ***Links***
     Tipos Primitivos en Java:
         https://github.com/gsuscastellanosSC/universidadJavaEspecialistaJavaDesdeCeroMaster/blob/main/UniversidadJava/src/fundamentosJava/TypesNumbers.java
