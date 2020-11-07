@@ -72,5 +72,13 @@ public class PrimitiveDataTypes {
         System.out.println("\nBoolean: ");
         boolean typeBoolean = false;
         System.out.println("Type Boolean = " + typeBoolean);
+        
+        System.out.println("\nConversión de tipos String to Integer: ");
+        String edad = "20";
+        System.out.println(Integer.parseInt(edad) + 25);
+        
+        System.out.println("\nConversión de tipos String to Double: ");
+        String pi = "3.1416";
+        System.out.println("pi+1 = "+(Double.parseDouble(pi)+1));
     }
 }

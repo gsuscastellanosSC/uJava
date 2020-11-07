@@ -78,6 +78,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
         List of Unicode characters.
 ***Class#19***
     ***19. Ejercicio: Tipos Primitivos tipo boolean***
+***Class#20***
+    ***20. Ejercicio: Conversión de Tipos Primitivos en Java - parte 1***
 ***Links***
     List of Unicode characters:
         https://en.wikipedia.org/wiki/List_of_Unicode_characters
