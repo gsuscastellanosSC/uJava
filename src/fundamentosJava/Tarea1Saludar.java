@@ -9,7 +9,7 @@ package fundamentosJava;
  *
  * @author sc
  */
-public class HelloWorld {
+public class Tarea1Saludar {
 
     /**
      * @param args the command line arguments

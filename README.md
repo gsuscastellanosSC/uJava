@@ -86,7 +86,11 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***22. Tienda de Libros (Solución)***
 ***Class#23***
     ***23. Ejercicio: Operadores Aritméticos en Java***
+***Class#24***
+    ***24. Rectángulo (Solución)***
 ***Links***
+    Tarea 4 Solución:
+        https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Tarea4Rectangulo.java
     Arithmetic operators:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/ArithmeticOperators.java
     Tarea 3 Solución:
@@ -105,8 +109,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/ConcatenateStrings.java
     Types variables:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Variables.java
-    Hello world:
-        https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/HelloWorld.java
+    Tarea 1 Solución:
+        https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Tarea1Saludar.java
     Install Apache NerBeans:
         https://tecadmin.net/install-netbeans-on-ubuntu-20-04/#:~:text=We%20use%20snap%20package%20to,command%20to%20install%20Netbeans%20IDE
     Donwnload Apache NetBeans:
