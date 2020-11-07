@@ -68,5 +68,9 @@ public class PrimitiveDataTypes {
         System.out.println("Char = " + myChar);
         int variableIntUnicode = '!';
         System.out.println("Al asignar el simbolo a un int retorna el valor Decimal: " + variableIntUnicode);
+
+        System.out.println("\nBoolean: ");
+        boolean typeBoolean = false;
+        System.out.println("Type Boolean = " + typeBoolean);
     }
 }

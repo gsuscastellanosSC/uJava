@@ -76,6 +76,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***18. Ejercicio: Tipos Primitivos tipo char***
         Tambien es compatible con var pero haciendo var nameChar = (char)33
         List of Unicode characters.
+***Class#19***
+    ***19. Ejercicio: Tipos Primitivos tipo boolean***
 ***Links***
     List of Unicode characters:
         https://en.wikipedia.org/wiki/List_of_Unicode_characters
