@@ -22,6 +22,10 @@ public class Tarea3TiendaLibros {
         System.out.println("Proporciona el precio: ");
         double cost = Double.parseDouble(sc.nextLine());
         System.out.println("Proporciona el envio gratuito: ");
-        boolean SendFree = Boolean.parseBoolean(sc.next());
+        boolean SendFree = Boolean.parseBoolean(sc.nextLine());
+        
+        System.out.println(name + " #" + id);
+        System.out.println("Precio: $" + cost);
+        System.out.println("Envio Gratuito: " + SendFree);
     }
 }

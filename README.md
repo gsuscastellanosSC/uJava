@@ -84,7 +84,11 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***21. Ejercicio: Conversión de Tipos Primitivos en Java - parte 2***
 ***Class22***
     ***22. Tienda de Libros (Solución)***
+***Class#23***
+    ***23. Ejercicio: Operadores Aritméticos en Java***
 ***Links***
+    Arithmetic operators:
+        https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/ArithmeticOperators.java
     Tarea 3 Solución:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Tarea3TiendaLibros.java
     List of Unicode characters:
