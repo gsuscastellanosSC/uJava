@@ -72,9 +72,15 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***16. Ejercicio: Tipos Primitivos tipos Flotantes***
 ***Class#17***
     ***7. Ejercicio: Inferencia de Tipos con Var y tipos Primitivos***
+***Class#18***
+    ***18. Ejercicio: Tipos Primitivos tipo char***
+        Tambien es compatible con var pero haciendo var nameChar = (char)33
+        List of Unicode characters.
 ***Links***
+    List of Unicode characters:
+        https://en.wikipedia.org/wiki/List_of_Unicode_characters
     Tipos Primitivos en Java:
-        https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/TypesNumbers.java
+        https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/PrimitiveDataTypes.java
     Tarea 2 Solución:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Tarea2DetallesLibro.java
     Scanner Class:

@@ -9,7 +9,7 @@ package fundamentosJava;
  *
  * @author sc
  */
-public class TypesNumbers {
+public class PrimitiveDataTypes {
 
     public static void main(String[] args) {
         System.out.println("\nByte: ");
@@ -59,5 +59,14 @@ public class TypesNumbers {
         System.out.println("\nvar with Float: ");
         var floatNumber = 10.0F;
         System.out.println("Float Number= " + floatNumber);
+
+        System.out.println("\nchar: ");
+        char myChar = '!';
+        myChar = '\u0021';//Code
+        myChar = 33;      //Decimal
+        myChar = 041;     //Octal  
+        System.out.println("Char = " + myChar);
+        int variableIntUnicode = '!';
+        System.out.println("Al asignar el simbolo a un int retorna el valor Decimal: " + variableIntUnicode);
     }
 }
