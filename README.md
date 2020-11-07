@@ -82,7 +82,11 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***20. Ejercicio: Conversión de Tipos Primitivos en Java - parte 1***
 ***Class#21***
     ***21. Ejercicio: Conversión de Tipos Primitivos en Java - parte 2***
+***Class22***
+    ***22. Tienda de Libros (Solución)***
 ***Links***
+    Tarea 3 Solución:
+        https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Tarea3TiendaLibros.java
     List of Unicode characters:
         https://en.wikipedia.org/wiki/List_of_Unicode_characters
     Tipos Primitivos en Java:
