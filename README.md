@@ -98,6 +98,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***28. Ejercicio: Operadores Relacionales***
 ***Class#29***
     ***29. Ejercicio: Operadores Condicionales en Java***
+***Class#30***
+    ***30. Ejercicio: Operador Ternario en Java***
 ***Links***
     Tarea 4 Solución:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Tarea4Rectangulo.java
