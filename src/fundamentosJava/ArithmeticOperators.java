@@ -78,23 +78,28 @@ public class ArithmeticOperators {
         int f = ++e;
         System.out.println("                                        e = " + e);
         System.out.println("                                        f = " + f);
-        
+
         System.out.println("                    Pos Incremento++: ");
         e = 3;
         f = e++;
         System.out.println("                                        e = " + e);
         System.out.println("                                        f = " + f);
-        
+
         System.out.println("                    Pre Decremento--: ");
         e = 3;
         f = --e;
         System.out.println("                                        e = " + e);
         System.out.println("                                        f = " + f);
-        
+
         System.out.println("                    Pos Decremento--: ");
         e = 3;
         f = e--;
         System.out.println("                                        e = " + e);
         System.out.println("                                        f = " + f);
+
+        System.out.println("\nOperadores de Igualdad: ");
+        System.out.println("                            Igualdad ==: ");
+        boolean aux = (a == b);
+        System.out.println("                                            "+a + " == " + b + " ? " + aux);
     }
 }
