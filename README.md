@@ -100,7 +100,11 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***29. Ejercicio: Operadores Condicionales en Java***
 ***Class#30***
     ***30. Ejercicio: Operador Ternario en Java***
+***Class#31***
+    ***31. El mayor de dos números (Solución)***
 ***Links***
+    Tarea 5 Solución:
+        https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Tarea5ElmayorDeDosNumeros.java
     Tarea 4 Solución:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Tarea4Rectangulo.java
     Arithmetic operators:
