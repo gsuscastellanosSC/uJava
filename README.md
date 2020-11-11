@@ -94,6 +94,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***26. Ejercicio: Operadores Unarios en Java***
 ***Class#27**
     ***27. Ejercicio: Operadores de Igualdad y Relacionales en Java***
+***Class#28***
+    ***28. Ejercicio: Operadores Relacionales***
 ***Links***
     Tarea 4 Solución:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Tarea4Rectangulo.java

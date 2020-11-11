@@ -97,9 +97,16 @@ public class ArithmeticOperators {
         System.out.println("                                        e = " + e);
         System.out.println("                                        f = " + f);
 
-        System.out.println("\nOperadores de Igualdad: ");
-        System.out.println("                            Igualdad ==: ");
-        boolean aux = (a == b);
-        System.out.println("                                            "+a + " == " + b + " ? " + aux);
+        System.out.println("\nOperadores: ");
+
+        System.out.println("                Igualdad==: ");
+        System.out.println("                                " + a + " == " + b + " ? " + (a == b));
+
+        System.out.println("                Relacionales<>:");
+        System.out.println("                                " + a + " >= " + b + " ? " + (a >= b));
+        System.out.println("                                " + a + " <= " + b + " ? " + (a <= b));
+        System.out.println("                                " + a + " < " + b + "  ? " + (a < b));
+        System.out.println("                                " + a + " > " + b + "  ? " + (a > b));
+
     }
 }
