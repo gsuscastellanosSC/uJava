@@ -40,24 +40,61 @@ public class ArithmeticOperators {
         }
 
         System.out.println("\nIncrementar: ");
-        System.out.println("Suma:   ");
+        System.out.println("                Suma:   ");
         ans = a += b;
-        System.out.println("            a += b = " + ans);
+        System.out.println("                        a += b = " + ans);
 
-        System.out.println("    Resta:      ");
+        System.out.println("                Resta:      ");
         ans = a -= b;
-        System.out.println("            a -= b = " + ans);
+        System.out.println("                        a -= b = " + ans);
 
-        System.out.println("    Multiplicación:      ");
+        System.out.println("                Multiplicación:      ");
         ans = a *= b;
-        System.out.println("            a *= b = " + ans);
+        System.out.println("                         a *= b = " + ans);
 
-        System.out.println("    Divición:      ");
+        System.out.println("                Divición:      ");
         ans = a /= b;
-        System.out.println("            a /= b = " + ans);
+        System.out.println("                         a /= b = " + ans);
 
-        System.out.println("    Módulo:      ");
+        System.out.println("                Módulo:      ");
         ans = a %= b;
-        System.out.println("            a %= b = " + ans);
+        System.out.println("                         a %= b = " + ans);
+
+        System.out.println("\nOperadores Unarios:     ");
+        int aa = 3;
+        int bb = -aa;
+        System.out.println("                    Cambio de signo-: ");
+        System.out.println("                                        aa =    " + aa);
+        System.out.println("                                        bb =   " + bb);
+
+        System.out.println("                    Negacigación!:       ");
+        boolean c = true;
+        boolean d = !c;
+        System.out.println("                                        c = " + c);
+        System.out.println("                                        d = " + d);
+
+        System.out.println("                    Pre Incremento++: ");
+        int e = 3;
+        int f = ++e;
+        System.out.println("                                        e = " + e);
+        System.out.println("                                        f = " + f);
+        
+        System.out.println("                    Pos Incremento++: ");
+        e = 3;
+        f = e++;
+        System.out.println("                                        e = " + e);
+        System.out.println("                                        f = " + f);
+        
+        System.out.println("                    Pre Decremento--: ");
+        e = 3;
+        f = --e;
+        System.out.println("                                        e = " + e);
+        System.out.println("                                        f = " + f);
+        
+        System.out.println("                    Pos Decremento--: ");
+        e = 3;
+        f = e--;
+        System.out.println("                                        e = " + e);
+        System.out.println("                                        f = " + f);
     }
 }

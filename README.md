@@ -90,6 +90,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***24. Rectángulo (Solución)***
 ***Class#25***
     ***25. Ejercicio: Operadores de Asignación en Java***
+***Class26***
+    ***26. Ejercicio: Operadores Unarios en Java***
 ***Links***
     Tarea 4 Solución:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Tarea4Rectangulo.java
