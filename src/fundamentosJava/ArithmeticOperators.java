@@ -102,11 +102,15 @@ public class ArithmeticOperators {
         System.out.println("                Igualdad==: ");
         System.out.println("                                " + a + " == " + b + " ? " + (a == b));
 
-        System.out.println("                Relacionales<>:");
+        System.out.println("                Relacionales<>: ");
         System.out.println("                                " + a + " >= " + b + " ? " + (a >= b));
         System.out.println("                                " + a + " <= " + b + " ? " + (a <= b));
         System.out.println("                                " + a + " < " + b + "  ? " + (a < b));
         System.out.println("                                " + a + " > " + b + "  ? " + (a > b));
+
+        System.out.println("                Condicionales|| &&: ");
+        System.out.println("                                    a >= 0 && a <= 10 ? " + ((a >= 0) && (a <= 10)));
+        System.out.println("                                    a >= 0 || a <= 10 ? " + ((a >= 0) || (a <= 10)));
 
     }
 }
