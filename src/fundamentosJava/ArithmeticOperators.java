@@ -113,6 +113,14 @@ public class ArithmeticOperators {
         System.out.println("                                    a >= 0 || a <= 10 ? " + ((a >= 0) || (a <= 10)));
 
         System.out.println("                Ternario()?True:False    ");
-        System.out.println("                            "+a + " > " + b + " ? " + ((a > b) ? true : false));
+        System.out.println("                            " + a + " > " + b + " ? " + (a > b));
+
+        System.out.println("\n Precedencia de Operadores:");
+        int x = 5;
+        int y = 10;
+        int z = ++x + y--;
+        System.out.println("                                z = " + z);
+        System.out.println("                                y = " + y);
+        System.out.println("                                x = " + x);
     }
 }
