@@ -104,6 +104,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***31. El mayor de dos números (Solución)***
 ***Class#32***
     ***32. Ejercicio: Precedencia de Operadores en Java***
+***Class#33***
+    ***33. Sentencia de control if - else en Java***
 ***Links***
     Tarea 5 Solución:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Tarea5ElmayorDeDosNumeros.java
