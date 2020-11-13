@@ -20,5 +20,13 @@ public class Conditionals {
         } else {
             System.out.println("        Is False");
         }
+        
+        int number = 2;
+        String numberText = "#N/A";
+        if(number ==2){
+            System.out.println("        Number two");
+        }else{
+            System.out.println("        "+numberText);
+        }
     }
 }
