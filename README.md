@@ -116,7 +116,11 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***37. Ejercicio: Cálculo estación del año con Switch***
 ***Class#38***
     ***38. Sistema de Calificaciones (Solución)***
+***Class#39***
+    ***39. Ejercicio Ciclo While***
 ***Links***
+    Cycles:
+        https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Cycles.java
     Tarea 6 Solución:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Tarea6SistemaDeCalificaciones.java
     Conditionals:
