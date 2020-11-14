@@ -46,5 +46,24 @@ public class Conditionals {
             season = "Autumn";
         }
         System.out.println("        The season for month " + month + " is " + season);
+
+        System.out.println("\nSwitch:   ");
+        System.out.print("      Enter your number ");
+        number = Integer.parseInt(sc.nextLine());
+        switch (number) {
+            case 1:
+                numberText = "Number one";
+                break;
+            case 2:
+                numberText = "Number two";
+                break;
+            case 3:
+                numberText = "Number three";
+                break;
+            default:
+                numberText = "Unknown number";
+        }
+        System.out.println("        " + numberText);
+
     }
 }
