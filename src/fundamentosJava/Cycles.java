@@ -12,11 +12,19 @@ package fundamentosJava;
 public class Cycles {
 
     public static void main(String args[]) {
-        System.out.println("\nWhile: ");
+        System.out.println("\nCycles: ");
+        
+        System.out.println("    While: ");
         int ac = 0;
         while (ac < 3) {
             System.out.println("        ac: " + ac);
             ac++;
         }
+        
+        System.out.println("    Do While: ");
+        do {            
+            System.out.println("        ac: " + ac);
+            ac++;
+        } while (ac<3);
     }
 }

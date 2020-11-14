@@ -118,6 +118,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***38. Sistema de Calificaciones (Solución)***
 ***Class#39***
     ***39. Ejercicio Ciclo While***
+***Class#40***
+    ***40. Ejercicio: Ciclo Do While***
 ***Links***
     Cycles:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Cycles.java
