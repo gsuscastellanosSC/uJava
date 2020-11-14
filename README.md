@@ -114,7 +114,11 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***36. Sentencia de control switch en Java***
 ***Class#37***
     ***37. Ejercicio: Cálculo estación del año con Switch***
+***Class#38***
+    ***38. Sistema de Calificaciones (Solución)***
 ***Links***
+    Tarea 6 Solución:
+        https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Tarea6SistemaDeCalificaciones.java
     Conditionals:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Conditionals.java
     Tarea 5 Solución:
