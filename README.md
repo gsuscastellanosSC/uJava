@@ -122,6 +122,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***40. Ejercicio: Ciclo Do While***
 ***Class#41***
     ***41. Ejercicio: Ciclo for***
+***Class#42**
+    ***42. Ejercicio: Palabras Break y Continue en Java***
 ***Links***
     Cycles:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Cycles.java
