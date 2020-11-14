@@ -120,6 +120,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***39. Ejercicio Ciclo While***
 ***Class#40***
     ***40. Ejercicio: Ciclo Do While***
+***Class#41***
+    ***41. Ejercicio: Ciclo for***
 ***Links***
     Cycles:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Cycles.java

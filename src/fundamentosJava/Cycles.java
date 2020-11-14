@@ -26,5 +26,10 @@ public class Cycles {
             System.out.println("        ac: " + ac);
             ac++;
         } while (ac<3);
+        
+        System.out.println("    For: ");
+        for (double i = 0.0; i < 3.1; i=i+0.1) {
+            System.out.println("        i: " + i);
+        }
     }
 }
