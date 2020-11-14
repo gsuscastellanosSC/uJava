@@ -36,7 +36,7 @@ public class Conditionals {
         Scanner sc = new Scanner(System.in);
         System.out.print("        Enter a month ");
         int month = Integer.parseInt(sc.nextLine());
-        if (month == 1 || month == 2 || month == 3) {
+        if (month == 1 || month == 2 || month == 12) {
             season = "Winter";
         } else if (month == 3 || month == 4 || month == 5) {
             season = "Spring";
@@ -64,6 +64,35 @@ public class Conditionals {
                 numberText = "Unknown number";
         }
         System.out.println("        " + numberText);
+
+        System.out.println("\nCálculo estación del año con con Switch: ");
+        System.out.print("            Enter a month ");
+        month = Integer.parseInt(sc.nextLine());
+        switch (month) {
+            case 1:
+            case 2:
+            case 12:
+                season = "Winter";
+                break;
+            case 3:
+            case 4:
+            case 5:
+                season = "Spring";
+                break;
+            case 6:
+            case 7:
+            case 8:
+                season = "Summer";
+                break;
+            case 9:
+            case 10:
+            case 11:
+                season = "Autumn";
+                break;
+            default:
+                season = "Unknown season.";
+        }
+        System.out.println("        The season for month " + month + " is " + season);
 
     }
 }
