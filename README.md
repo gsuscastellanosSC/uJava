@@ -124,6 +124,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***41. Ejercicio: Ciclo for***
 ***Class#42**
     ***42. Ejercicio: Palabras Break y Continue en Java***
+***Class#43***
+    ***43. Ejercicio: Uso de Etiquetas (Labels) en Java***
 ***Links***
     Cycles:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Cycles.java

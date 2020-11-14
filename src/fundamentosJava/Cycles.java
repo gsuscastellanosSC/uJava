@@ -31,6 +31,7 @@ public class Cycles {
         for (double i = 0.0; i < 3.0; i++) {
             System.out.println("        ac = " + i);
         }
+
         System.out.println("    Break y Continue: ");
         System.out.println("        Break: ");
         for (int i = 0; i < 10; i++) {
@@ -40,11 +41,21 @@ public class Cycles {
             }
         }
         System.out.println("        Continue: ");
-          for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 10; i++) {
             if (i % 2 != 0) {
-               continue; //Ir a la siguiente iteración;
+                continue; //Ir a la siguiente iteración;
             }
             System.out.println("            ac = " + i + ", número par.");
         }
+
+        System.out.println("    Labels «Bad practice»: ");
+        hereLabel:
+        for (int i = 0; i < 10; i++) {
+            if (i % 2 != 0) {
+                continue hereLabel; //Ir a la linea de código de la etiqueta.
+            }
+            System.out.println("            ac = " + i + ", número par.");
+        }
+        
     }
 }
