@@ -108,6 +108,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***33. Sentencia de control if - else en Java***
 ***Class#34**
     ***34. Ejercicio If - else en Java***
+***Class#35**
+    ***35. Ejercicio: Cálculo estación del año con if-else***
 ***Links***
     Tarea 5 Solución:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Tarea5ElmayorDeDosNumeros.java
