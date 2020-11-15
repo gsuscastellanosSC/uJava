@@ -132,6 +132,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***45. Atributos y Métodos de una Clase en Java***
 ***Class#46**
     ***46. Objetos en Java***
+***Class#47***
+    ***47. Objetos en Java - continuación***
 ***Links***
     Class:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Class.java

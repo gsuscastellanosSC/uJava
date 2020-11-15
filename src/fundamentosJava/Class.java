@@ -18,6 +18,13 @@ public class Class {
         personOne.gender = "Male";
         personOne.occupation = "Engineer";
         personOne.dataPerson();
+        
+        Person personTwo = new Person();
+        personTwo.name = "Jesus";
+        personTwo.lastName = "Castellanos";
+        personTwo.gender = "Male";
+        personTwo.occupation = "Engineer";
+        personTwo.dataPerson();
     }
 
     public static class Person {
@@ -28,6 +35,7 @@ public class Class {
         String occupation;
 
         public void dataPerson() {
+            System.out.println("\n");
             System.out.println("Name: " + name);
             System.out.println("Last name: " + lastName);
             System.out.println("Gender: " + gender);
