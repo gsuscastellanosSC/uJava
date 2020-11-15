@@ -26,34 +26,33 @@ public class StaticScope {
         this.idPerson = StaticScope.acPerson;
     }
 
-    public static int getAcPerson() {
-        return acPerson;
-    }
-
-    public static void setAcPerson(int aAcPerson) {
-        acPerson = aAcPerson;
-    }
-
     public int getIdPerson() {
         return idPerson;
-    }
-
-    public void setIdPerson(int idPerson) {
-        this.idPerson = idPerson;
     }
 
     public String getName() {
         return name;
     }
 
+    public static int getAcPerson() {
+        return acPerson;
+    }
+
+    public void setIdPerson(int idPerson) {
+        this.idPerson = idPerson;
+    }
+
     public void setName(String name) {
         this.name = name;
     }
-    
-    
+
+    public static void setAcPerson(int aAcPerson) {
+        acPerson = aAcPerson;
+    }
+
     @Override
     public String toString() {
-        return "StaticScope{" + "idPerson=" + idPerson + ", name=" + name + '}';
+        return "Person{" + "idPerson=" + idPerson + ", name=" + name + '}';
     }
 
 }

@@ -176,8 +176,12 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
 ***Class#65***
     ***65. Ejercicio: Mejora con el método toString***
 ***Class#66***
-    ***66. Lección: Contexto Estático en Java (uso de la palabra static***    
+    ***66. Lección: Contexto Estático en Java (uso de la palabra static***
+***Class#67***
+    ***67. Ejercicio: Contexto Estático en Java (uso palabra static)***    
 ***Links***
+    StaticScope:
+        https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/StaticScope.java
     Encapsulation:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Encapsulation.java
     Laboratoty Box:
