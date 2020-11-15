@@ -148,9 +148,13 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***53. Constructores en Java***
 ***Class#54***
     ***54. Sobrecarga de Constructores en Java***
+***Class#55***
+    ***55. Alcance de Variables en Java***
 ***Class#  ***
     *** ***
 ***Links***
+    ScopeOfVariables:
+        https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/ScopeOfVariables.java
     Builders:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Builders.java
     Class:
