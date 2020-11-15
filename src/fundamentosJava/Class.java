@@ -12,10 +12,15 @@ package fundamentosJava;
 public class Class {
 
     public static void main(String args[]) {
-
+        Person personOne = new Person();
+        personOne.name = "Juan";
+        personOne.lastName = "Perez";
+        personOne.gender = "Male";
+        personOne.occupation = "Engineer";
+        personOne.dataPerson();
     }
 
-    public class Person {
+    public static class Person {
 
         String name;
         String lastName;
