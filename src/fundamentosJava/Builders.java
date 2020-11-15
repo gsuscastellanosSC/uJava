@@ -12,8 +12,13 @@ package fundamentosJava;
 public class Builders {
 
     public static void main(String args[]) {
-        Arithmetic suma = new Arithmetic(1, 2);
-        suma.sum();
+        System.out.println("\nConstructores:  ");
+
+        System.out.println("    Consturctor sin atributos: ");
+        Arithmetic arithmeticOne = new Arithmetic();
+        System.out.println("\nSobre carga de Constructores: ");
+        Arithmetic arithmeticTwo = new Arithmetic(1, 2);
+
     }
 
     public static class Arithmetic {
@@ -21,7 +26,12 @@ public class Builders {
         int a;
         int b;
 
+        public Arithmetic() {
+            System.out.println("        Ejecutando constructor...");
+        }
+
         public Arithmetic(int a, int b) {
+            System.out.println("        Ejecutando constructor con atributos...");
             this.a = a;
             this.b = b;
         }
