@@ -171,6 +171,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***62. Ejercicio: Uso de la palabra this en Java - parte 2***
 ***Class#63***
     ***63. Encapsulamiento en Java***
+***Class#64***
+    ***64. Ejercicio: Encapsulamiento en Java - parte 2***
 ***Links***
     Encapsulation:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Encapsulation.java

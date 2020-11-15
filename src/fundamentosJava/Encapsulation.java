@@ -10,7 +10,12 @@ package fundamentosJava;
  * @author sc
  */
 public class Encapsulation {
-
+    
+    public static void main(String[] args) {
+       Encapsulation person = new Encapsulation("Juan", 50000.00, false);
+       
+    }
+    
     private String name;
     private double salary;
     private boolean deleted;
