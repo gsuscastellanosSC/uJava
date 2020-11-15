@@ -144,6 +144,10 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***51. Paso de Argumentos a un Método en Java***
 ***Class#52**
     ***52. Uso del operador this en Java***
+***Class#53***
+    ***53. Constructores en Java***
+***Class#  ***
+    *** ***
 ***Links***
     Class:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Class.java
