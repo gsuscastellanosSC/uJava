@@ -157,7 +157,11 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
             Guarda la referencia de memoría de los objetos.
         Memoria Heap:
             Guarda los objetos y sus atributos.
+***Class#57***
+    ***57. Laboratorio: Proyecto Caja***
 ***Links***
+    Laboratoty Box:
+        https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Box.java
     ScopeOfVariables:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/ScopeOfVariables.java
     Builders:
