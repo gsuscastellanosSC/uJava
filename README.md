@@ -150,8 +150,13 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***54. Sobrecarga de Constructores en Java***
 ***Class#55***
     ***55. Alcance de Variables en Java***
-***Class#  ***
-    *** ***
+***Class#56***
+    ***56. Lección: Memoria Stack y Heap en Java***
+        Memoria Stack:
+            Guarda variables locales.
+            Guarda la referencia de memoría de los objetos.
+        Memoria Heap:
+            Guarda los objetos y sus atributos.
 ***Links***
     ScopeOfVariables:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/ScopeOfVariables.java

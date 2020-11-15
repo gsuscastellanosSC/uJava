@@ -20,7 +20,7 @@ public class ScopeOfVariables {
         System.out.println("            a =" + a + ", b = " + b);
         System.out.println("        Scope Class Arithmetic: ");
         Arithmetic arithmeticTwo = new Arithmetic(20, 100);
-
+        
     }
 
     public static class Arithmetic {
