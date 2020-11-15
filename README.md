@@ -169,7 +169,11 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***61. Ejercicio: Uso de la palabra this en Java***
 ***Class#62***
     ***62. Ejercicio: Uso de la palabra this en Java - parte 2***
+***Class#63***
+    ***63. Encapsulamiento en Java***
 ***Links***
+    Encapsulation:
+        https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Encapsulation.java
     Laboratoty Box:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Box.java
     ScopeOfVariables:
