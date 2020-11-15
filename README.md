@@ -136,6 +136,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***47. Objetos en Java - continuación***
 ***Class#48***
     ***48. Creación de Métodos en Java***
+***Class#49***
+    ***49. Creación de Métodos en Java - parte 2***
 ***Links***
     Class:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Class.java

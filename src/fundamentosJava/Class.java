@@ -30,7 +30,12 @@ public class Class {
         personTwo.dataPerson();
 
         System.out.println("\nMethods:  ");
-        
+        Arithmetic sum = new Arithmetic();
+        sum.a = 3;
+        sum.b = 2;
+        sum.sum();
+        System.out.println("        " + sum.a + " + " + sum.b + " = " + sum.sumWithReturn());
+
     }
 
     public static class Person {
@@ -54,7 +59,11 @@ public class Class {
         int a;
         int b;
 
-        public int sum() {
+        public void sum() {
+            System.out.println("        " + a + " + " + b + " = " + (a + b));
+        }
+
+        public int sumWithReturn() {
             return a + b;
         }
     }
