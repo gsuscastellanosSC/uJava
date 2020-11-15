@@ -161,6 +161,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***57. Laboratorio: Proyecto Caja***
 ***Class#58***
     ***58. Ejercicio: Paso por Valor en Java***    
+***Class#59***
+    ***59. Ejercicio: Paso por Referencia en Java***
 ***Links***
     Laboratoty Box:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Box.java
