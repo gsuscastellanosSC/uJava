@@ -159,6 +159,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
             Guarda los objetos y sus atributos.
 ***Class#57***
     ***57. Laboratorio: Proyecto Caja***
+***Class#58***
+    ***58. Ejercicio: Paso por Valor en Java***    
 ***Links***
     Laboratoty Box:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Box.java
