@@ -12,19 +12,25 @@ package fundamentosJava;
 public class Class {
 
     public static void main(String args[]) {
+
+        System.out.println("\nPerson One:   ");
         Person personOne = new Person();
         personOne.name = "Juan";
         personOne.lastName = "Perez";
         personOne.gender = "Male";
         personOne.occupation = "Engineer";
         personOne.dataPerson();
-        
+
+        System.out.println("\nPerson Two:   ");
         Person personTwo = new Person();
         personTwo.name = "Jesus";
         personTwo.lastName = "Castellanos";
         personTwo.gender = "Male";
         personTwo.occupation = "Engineer";
         personTwo.dataPerson();
+
+        System.out.println("\nMethods:  ");
+        
     }
 
     public static class Person {
@@ -35,12 +41,21 @@ public class Class {
         String occupation;
 
         public void dataPerson() {
-            System.out.println("\n");
-            System.out.println("Name: " + name);
-            System.out.println("Last name: " + lastName);
-            System.out.println("Gender: " + gender);
-            System.out.println("Occupation: " + occupation);
+            System.out.println("        Name: " + name);
+            System.out.println("        Last name: " + lastName);
+            System.out.println("        Gender: " + gender);
+            System.out.println("        Occupation: " + occupation);
         }
 
+    }
+
+    public static class Arithmetic {
+
+        int a;
+        int b;
+
+        public int sum() {
+            return a + b;
+        }
     }
 }
