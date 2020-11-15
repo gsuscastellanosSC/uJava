@@ -126,7 +126,11 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***42. Ejercicio: Palabras Break y Continue en Java***
 ***Class#43***
     ***43. Ejercicio: Uso de Etiquetas (Labels) en Java***
+***Class#44***
+    ***44. Clases en Java***
 ***Links***
+    Class:
+        https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Class.java
     Cycles:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Cycles.java
     Tarea 6 Solución:
