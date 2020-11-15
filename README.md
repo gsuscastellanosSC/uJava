@@ -175,6 +175,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***64. Ejercicio: Encapsulamiento en Java - parte 2***
 ***Class#65***
     ***65. Ejercicio: Mejora con el método toString***
+***Class#66***
+    ***66. Lección: Contexto Estático en Java (uso de la palabra static***    
 ***Links***
     Encapsulation:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Encapsulation.java
