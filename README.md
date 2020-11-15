@@ -178,7 +178,9 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
 ***Class#66***
     ***66. Lección: Contexto Estático en Java (uso de la palabra static***
 ***Class#67***
-    ***67. Ejercicio: Contexto Estático en Java (uso palabra static)***    
+    ***67. Ejercicio: Contexto Estático en Java (uso palabra static)***
+***Class#68***
+    ***68. Ejercicio: Contexto Estático en Java - parte 2***
 ***Links***
     StaticScope:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/StaticScope.java

@@ -13,7 +13,11 @@ public class StaticScope {
 
     public static void main(String[] args) {
         StaticScope personOne = new StaticScope("Sc");
-        System.out.println(personOne);
+        printPerson(personOne);
+    }
+    
+    public static void printPerson(StaticScope person){
+        System.out.println(person);
     }
 
     private int idPerson;
