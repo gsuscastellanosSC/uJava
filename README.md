@@ -167,6 +167,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***60. Ejercicio: Uso de la palabra return y null***
 ***Class#61***
     ***61. Ejercicio: Uso de la palabra this en Java***
+***Class#62***
+    ***62. Ejercicio: Uso de la palabra this en Java - parte 2***
 ***Links***
     Laboratoty Box:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Box.java
