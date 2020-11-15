@@ -165,6 +165,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***59. Ejercicio: Paso por Referencia en Java***
 ***Class#60***
     ***60. Ejercicio: Uso de la palabra return y null***
+***Class#61***
+    ***61. Ejercicio: Uso de la palabra this en Java***
 ***Links***
     Laboratoty Box:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Box.java
