@@ -10,12 +10,13 @@ package fundamentosJava;
  * @author sc
  */
 public class Encapsulation {
-    
+
     public static void main(String[] args) {
-       Encapsulation person = new Encapsulation("Juan", 50000.00, false);
-       
+        Encapsulation person = new Encapsulation("Juan", 50000.00, false);
+        System.out.println(person.toString());
+        System.out.println(person);
     }
-    
+
     private String name;
     private double salary;
     private boolean deleted;
@@ -25,8 +26,8 @@ public class Encapsulation {
         this.salary = salary;
         this.deleted = deleted;
     }
-    
-    public String getName(){
+
+    public String getName() {
         return this.name;
     }
 
@@ -49,5 +50,10 @@ public class Encapsulation {
     public void setDeleted(boolean deleted) {
         this.deleted = deleted;
     }
-    
+
+    @Override
+    public String toString() {
+        return "Person{" + "name=" + name + ", salary=" + salary + ", deleted=" + deleted + '}';
+    }
+
 }

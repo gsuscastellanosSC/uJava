@@ -173,6 +173,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***63. Encapsulamiento en Java***
 ***Class#64***
     ***64. Ejercicio: Encapsulamiento en Java - parte 2***
+***Class#65***
+    ***65. Ejercicio: Mejora con el método toString***
 ***Links***
     Encapsulation:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Encapsulation.java
