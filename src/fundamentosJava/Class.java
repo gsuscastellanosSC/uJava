@@ -34,23 +34,8 @@ public class Class {
         sum.a = 3;
         sum.b = 2;
         sum.sum();
-        System.out.println("        " + sum.a + " + " + sum.b + " = " + sum.sumWithReturn());
-
-    }
-
-    public static class Person {
-
-        String name;
-        String lastName;
-        String gender;
-        String occupation;
-
-        public void dataPerson() {
-            System.out.println("        Name: " + name);
-            System.out.println("        Last name: " + lastName);
-            System.out.println("        Gender: " + gender);
-            System.out.println("        Occupation: " + occupation);
-        }
+        System.out.println("       sumWithReturn(): " + sum.a + " + " + sum.b + " = " + sum.sumWithReturn());
+        System.out.println("       sumWithArguments: " + sum.a + " + " + sum.b + " = " + sum.sumWithArguments(sum.a, sum.b));
 
     }
 
@@ -60,11 +45,32 @@ public class Class {
         int b;
 
         public void sum() {
-            System.out.println("        " + a + " + " + b + " = " + (a + b));
+            System.out.println("       void sum(): " + a + " + " + b + " = " + (a + b));
         }
 
         public int sumWithReturn() {
             return a + b;
         }
+
+        public int sumWithArguments(int a, int b) {
+            return a + b;
+        }
+
+        public static class Person {
+
+            String name;
+            String lastName;
+            String gender;
+            String occupation;
+
+            public void dataPerson() {
+                System.out.println("        Name: " + name);
+                System.out.println("        Last name: " + lastName);
+                System.out.println("        Gender: " + gender);
+                System.out.println("        Occupation: " + occupation);
+            }
+
+        }
+
     }
 }
