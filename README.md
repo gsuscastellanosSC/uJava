@@ -140,8 +140,10 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***49. Creación de Métodos en Java - parte 2***
 ***Class#50***
     ***50. Ejecución Paso a Paso de un Método (Modo Debug)***
-***Class"51***
+***Class#51***
     ***51. Paso de Argumentos a un Método en Java***
+***Class#52**
+    ***52. Uso del operador this en Java***
 ***Links***
     Class:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Class.java

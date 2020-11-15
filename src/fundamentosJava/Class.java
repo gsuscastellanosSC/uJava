@@ -35,7 +35,10 @@ public class Class {
         sum.b = 2;
         sum.sum();
         System.out.println("       sumWithReturn(): " + sum.a + " + " + sum.b + " = " + sum.sumWithReturn());
-        System.out.println("       sumWithArguments: " + sum.a + " + " + sum.b + " = " + sum.sumWithArguments(sum.a, sum.b));
+        System.out.println("       sumWithArguments:    " + sum.a + " + " + sum.b + " = " + sum.sumWithArguments(sum.a, sum.b));
+
+        System.out.println("\n       This: ");
+        System.out.println("            sumWithThis: " + sum.a + " + " + sum.b + " = " + sum.sumWithThis(sum.a, sum.b));
 
     }
 
@@ -56,20 +59,32 @@ public class Class {
             return a + b;
         }
 
-        public static class Person {
+        /**
+         *
+         * @param a
+         * @param b
+         * @return
+         */
+        public int sumWithThis(int a, int b) {
+            this.a = a;
+            this.b = b;
+            return this.sumWithReturn();
+        }
 
-            String name;
-            String lastName;
-            String gender;
-            String occupation;
+    }
 
-            public void dataPerson() {
-                System.out.println("        Name: " + name);
-                System.out.println("        Last name: " + lastName);
-                System.out.println("        Gender: " + gender);
-                System.out.println("        Occupation: " + occupation);
-            }
+    public static class Person {
 
+        String name;
+        String lastName;
+        String gender;
+        String occupation;
+
+        public void dataPerson() {
+            System.out.println("        Name: " + name);
+            System.out.println("        Last name: " + lastName);
+            System.out.println("        Gender: " + gender);
+            System.out.println("        Occupation: " + occupation);
         }
 
     }
