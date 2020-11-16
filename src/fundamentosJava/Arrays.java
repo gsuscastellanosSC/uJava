@@ -18,30 +18,66 @@ public class Arrays {
         System.out.println("\nArrays:    ");
         int ages[] = new int[3];
         System.out.println("    Array of Type Primitive:    ");
-        System.out.print("          [");
-        for (int i = 0; i < ages.length; i++) {
-            ages[i] = (1 + i) + 10 * i;
-            if (i < ages.length - 1) {
-                System.out.print(ages[i] + ", ");
-            } else {
-                System.out.print(ages[i]);
-            }
-
-        }
-        System.out.println("]");
+        addElementsArray(ages);
+        printArrays(ages);
 
         System.out.println("    \nArrays Type Object:   ");
         Person persons[] = new Person[5];
-        System.out.print("         [");
-        for (int i = 0; i < persons.length; i++) {
-            persons[i] = new Person("Name" + (i + 1), 'M', 10 * (1 + i), "address" + (i + 1));
-            if (i < persons.length - 1) {
-                System.out.print(persons[i] + ",\n          ");
+        addElementsArray(persons);
+        printArrays(persons);
+
+        System.out.println("    \nInitial Value:    ");
+        String numbers[] = {"One", "Two", "Three"};
+        printArrays(numbers);
+    }
+
+    public static void printArrays(int array[]) {
+        System.out.print("          [");
+        for (int i = 0; i < array.length; i++) {
+            if (i < array.length - 1) {
+                System.out.print(array[i] + ", ");
             } else {
-                System.out.print(persons[i]);
+                System.out.print(array[i]);
+            }
+        }
+        System.out.println("]");
+    }
+
+    public static void printArrays(String array[]) {
+        System.out.print("          [");
+        for (int i = 0; i < array.length; i++) {
+            if (i < array.length - 1) {
+                System.out.print(array[i] + ", ");
+            } else {
+                System.out.print(array[i]);
+            }
+        }
+        System.out.println("]");
+    }
+
+    public static void printArrays(Object array[]) {
+        System.out.print("         [");
+        for (int i = 0; i < array.length; i++) {
+
+            if (i < array.length - 1) {
+                System.out.print(array[i] + ",\n          ");
+            } else {
+                System.out.print(array[i]);
             }
 
         }
         System.out.println("]");
+    }
+
+    public static void addElementsArray(int array[]) {
+        for (int i = 0; i < array.length; i++) {
+            array[i] = i * (i + 1);
+        }
+    }
+
+    public static void addElementsArray(Object array[]) {
+        for (int i = 0; i < array.length; i++) {
+            array[i] = new Person("Name" + (i + 1), 'M', 10 * (1 + i), "address" + (i + 1));
+        }
     }
 }
