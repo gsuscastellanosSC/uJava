@@ -191,6 +191,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***72. Herencia en Java - parte 4***
 ***Class#73***
     ***73. Herencia en Java - parte 5***
+***Class#74***
+    ***74. Herencia en Java - Orden de construcción de Objetos y Herencia***
 ***Links***
     Inheritance:
         https://github.com/gsuscastellanosSC/uJava/tree/main/src/fundamentosJava/Inheritance
