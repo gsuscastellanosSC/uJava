@@ -199,7 +199,17 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***76. Ejercicio: Sobrecarga de Métodos en Java***
 ***Class#77***
     ***77. Ejercicio: Paquetes en Java***
+***Class#78***
+    ***78. Uso de la palabra final en Java***
+        Final in a variable:
+            Is a Constant.
+        Final in a Class:
+            Cant'n Inherit;
+        Final in a Method:
+            Cant'n Overload.
 ***Links***
+    Use Word Final:
+        https://github.com/gsuscastellanosSC/uJava/tree/main/src/fundamentosJava/wordFinal
     Method Overload:
         https://github.com/gsuscastellanosSC/uJava/tree/main/src/fundamentosJava/MethodOverload
     Inheritance:
