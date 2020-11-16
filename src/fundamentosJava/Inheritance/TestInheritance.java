@@ -10,12 +10,13 @@ package fundamentosJava.Inheritance;
  * @author sc
  */
 public class TestInheritance {
+
     public static void main(String[] args) {
         Person personOne = new Person("Sc");
         System.out.println(personOne);
-        
-        Employee employeeOne = new Employee();
-        employeeOne.name="Jesus";
+
+        Employee employeeOne = new Employee(2000, "Jhon", 'M', 30, "Calle");
+        employeeOne.name = "Jesus";
         System.out.println(employeeOne);
     }
 }
