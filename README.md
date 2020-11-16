@@ -195,7 +195,11 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***74. Herencia en Java - Orden de construcción de Objetos y Herencia***
 ***Class#75***
     ***75. Ejercicio: Sobrecarga de Constructores***
+***Class#76***
+    ***76. Ejercicio: Sobrecarga de Métodos en Java***
 ***Links***
+    Method Overload:
+        https://github.com/gsuscastellanosSC/uJava/tree/main/src/fundamentosJava/MethodOverload
     Inheritance:
         https://github.com/gsuscastellanosSC/uJava/tree/main/src/fundamentosJava/Inheritance
     StaticScope:
