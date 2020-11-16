@@ -193,6 +193,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***73. Herencia en Java - parte 5***
 ***Class#74***
     ***74. Herencia en Java - Orden de construcción de Objetos y Herencia***
+***Class#75***
+    ***75. Ejercicio: Sobrecarga de Constructores***
 ***Links***
     Inheritance:
         https://github.com/gsuscastellanosSC/uJava/tree/main/src/fundamentosJava/Inheritance
