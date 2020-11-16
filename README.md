@@ -197,6 +197,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***75. Ejercicio: Sobrecarga de Constructores***
 ***Class#76***
     ***76. Ejercicio: Sobrecarga de Métodos en Java***
+***Class#77***
+    ***77. Ejercicio: Paquetes en Java***
 ***Links***
     Method Overload:
         https://github.com/gsuscastellanosSC/uJava/tree/main/src/fundamentosJava/MethodOverload
