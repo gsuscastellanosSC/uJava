@@ -31,12 +31,12 @@ public class Arrays {
         System.out.println("]");
 
         System.out.println("    \nArrays Type Object:   ");
-        Person persons[] = new Person[3];
-        System.out.print("          [");
+        Person persons[] = new Person[5];
+        System.out.print("         [");
         for (int i = 0; i < persons.length; i++) {
             persons[i] = new Person("Name" + (i + 1), 'M', 10 * (1 + i), "address" + (i + 1));
             if (i < persons.length - 1) {
-                System.out.print(persons[i] + ", ");
+                System.out.print(persons[i] + ",\n          ");
             } else {
                 System.out.print(persons[i]);
             }
