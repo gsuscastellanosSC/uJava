@@ -183,6 +183,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***68. Ejercicio: Contexto Estático en Java - parte 2***
 ***Class#69***
     ***69. Herencia en Java (Inheritance)***
+***Class#70***
+    ***70. Herencia en Java - parte 2***
 ***Links***
     Inheritance:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/fundamentosJava.Inheritance
