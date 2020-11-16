@@ -25,8 +25,7 @@ public class TestInheritance {
         System.out.println("        " + employeeOne);
         
         System.out.println("\nClient:   ");
-        Date date = new Date();
-        Client clientOne = new Client(date, true, "name", '0', 24, "address");
+        Client clientOne = new Client(new Date(), true, "name", '0', 24, "address");
         System.out.println("        "+clientOne);
     }
 }

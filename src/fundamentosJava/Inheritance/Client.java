@@ -13,6 +13,14 @@ import java.util.Date;
  */
 public class Client extends Person {
 
+    public static int getAccClient() {
+        return accClient;
+    }
+
+    public static void setAccClient(int aAccClient) {
+        accClient = aAccClient;
+    }
+
     private int idClient;
     private Date RegistrationDate;
     private boolean vip;
@@ -24,6 +32,30 @@ public class Client extends Person {
         this.RegistrationDate = RegistrationDate;
         this.vip = vip;
         this.accClient = accClient;
+    }
+
+    public int getIdClient() {
+        return idClient;
+    }
+
+    public void setIdClient(int idClient) {
+        this.idClient = idClient;
+    }
+
+    public Date getRegistrationDate() {
+        return RegistrationDate;
+    }
+
+    public void setRegistrationDate(Date RegistrationDate) {
+        this.RegistrationDate = RegistrationDate;
+    }
+
+    public boolean isVip() {
+        return vip;
+    }
+
+    public void setVip(boolean vip) {
+        this.vip = vip;
     }
 
     @Override
