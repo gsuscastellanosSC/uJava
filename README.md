@@ -217,6 +217,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***81. Arreglos en Java - parte 2***
 ***Class#82***
     ***82. Arreglos en Java - parte 3***
+***Class#83***
+    ***83. Arreglos en Java - parte 4***
 ***Links***
     Arrays:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/Arrays.java
