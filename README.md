@@ -181,7 +181,11 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***67. Ejercicio: Contexto Estático en Java (uso palabra static)***
 ***Class#68***
     ***68. Ejercicio: Contexto Estático en Java - parte 2***
+***Class#69***
+    ***69. Herencia en Java (Inheritance)***
 ***Links***
+    Inheritance:
+        https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/fundamentosJava.Inheritance
     StaticScope:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/StaticScope.java
     Encapsulation:
