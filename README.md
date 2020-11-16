@@ -207,6 +207,10 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
             Cant'n Inherit;
         Final in a Method:
             Cant'n Overload.
+***Class#79***
+    ***79. Uso de la palabra final con Objetos en Java***
+        Final in a Object:
+            Cant'n be reassgned.
 ***Links***
     Use Word Final:
         https://github.com/gsuscastellanosSC/uJava/tree/main/src/fundamentosJava/wordFinal
