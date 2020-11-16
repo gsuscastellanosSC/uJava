@@ -211,6 +211,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***79. Uso de la palabra final con Objetos en Java***
         Final in a Object:
             Cant'n be reassgned.
+***Class#80***
+    ***80. Arreglos en Java***
 ***Links***
     Use Word Final:
         https://github.com/gsuscastellanosSC/uJava/tree/main/src/fundamentosJava/wordFinal
