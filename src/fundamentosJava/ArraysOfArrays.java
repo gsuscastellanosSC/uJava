@@ -12,8 +12,35 @@ package fundamentosJava;
 public class ArraysOfArrays {
 
     public static void main(String[] args) {
-        //                            Rows Columns                        
-        int arrayOfArrays[][] = new int[3][2];
-        System.out.println(""+arrayOfArrays);
+        int rows = 3;
+        int columns = 2;
+        String arrayOfArrays[][] = new String[3][2];
+        arrayOfArrays[0][0] = "0-0";
+        arrayOfArrays[0][1] = "0-1";
+        arrayOfArrays[1][0] = "1-0";
+        arrayOfArrays[1][1] = "1-1";
+        arrayOfArrays[2][0] = "2-0";
+        arrayOfArrays[2][1] = "2-1";
+        System.out.println(arrayOfArrays.length);
+        printArrayOfArrays2d(arrayOfArrays);
+    }
+
+    public static void printArrayOfArrays2d(Object arrayOfArrays2d[][]) {
+        System.out.println("[");
+        for (int row = 0; row < arrayOfArrays2d.length; row++) {
+            System.out.print("[");
+            for (int column = 0; column < arrayOfArrays2d[row].length; column++) {
+                if (column < arrayOfArrays2d[column].length - 1) {
+                    System.out.print(arrayOfArrays2d[row][column] + ", ");
+                } else {
+                    if (row < arrayOfArrays2d.length - 1) {
+                        System.out.println(arrayOfArrays2d[row][column] + "], ");
+                    } else {
+                        System.out.println(arrayOfArrays2d[row][column] + "]");
+                    }
+                }
+            }
+        }
+        System.out.println("]");
     }
 }

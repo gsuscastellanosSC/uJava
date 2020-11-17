@@ -225,6 +225,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***85. Arreglos en Java - parte 6***
 ***Class#86***
     ***86. Manejo de Matrices en Java***
+***Class#87***
+    ***87. Manejo de Matrices en Java - parte 2***
 ***Links***
     Arrays Of Arrays:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/ArraysOfArrays.java
