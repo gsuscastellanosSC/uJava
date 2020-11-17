@@ -227,6 +227,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***86. Manejo de Matrices en Java***
 ***Class#87***
     ***87. Manejo de Matrices en Java - parte 2***
+***Class#88***
+    ***88. Manejo de Matrices en Java - parte 3***
 ***Links***
     Arrays Of Arrays:
         https://github.com/gsuscastellanosSC/uJava/blob/main/src/fundamentosJava/ArraysOfArrays.java
