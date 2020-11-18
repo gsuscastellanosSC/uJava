@@ -3,16 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package fundamentosJava.MethodOverload;
+package fundamentosJava.designClass;
 
 /**
  *
  * @author sc
  */
-public class TestOPerations {
+public class TestSale {
 
     public static void main(String[] args) {
-        System.out.println(Operations.sum(1.0, 10000));
-        System.out.println(Operations.sum(1, 10000));
+        Order o1 = new Order();
+        Order o2 = new Order();
+        Product p1 = new Product();
+        System.out.println(o1);
+        System.out.println(o2);
+        System.out.println(p1);
     }
 }

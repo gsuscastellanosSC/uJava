@@ -5,7 +5,7 @@
  */
 package fundamentosJava;
 
-import fundamentosJava.Inheritance.Person;
+import fundamentosJava.inheritance.Person;
 
 /**
  *
