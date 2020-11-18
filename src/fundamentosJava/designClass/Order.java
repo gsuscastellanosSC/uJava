@@ -24,7 +24,7 @@ public class Order {
 
     public void addProduct(Product product) {
         if (this.accPorducts < Order.MAX_PRODUCTS) {
-            products[accPorducts++] = new Product();
+            products[accPorducts++] = product;
         } else {
             System.out.println("Max Products Over Flow: " + Order.MAX_PRODUCTS);
         }

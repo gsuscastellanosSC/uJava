@@ -245,6 +245,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***95. Ejercicio: Diseño de Clases en Java - parte 4***
 ***Class#96***
     ***96. Ejercicio: Diseño de Clases en Java - parte 5***
+***Class#97***
+    ***97. Ejercicio: Diseño de Clases en Java - parte 6***
 ***Links***
     Design Class:
         https://github.com/gsuscastellanosSC/uJava/tree/main/src/fundamentosJava/designClass
