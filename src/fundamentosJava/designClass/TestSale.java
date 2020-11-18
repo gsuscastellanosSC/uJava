@@ -12,11 +12,6 @@ package fundamentosJava.designClass;
 public class TestSale {
 
     public static void main(String[] args) {
-        Order o1 = new Order();
-        Order o2 = new Order();
-        Product p1 = new Product();
-        System.out.println(o1);
-        System.out.println(o2);
-        System.out.println(p1);
+
     }
 }

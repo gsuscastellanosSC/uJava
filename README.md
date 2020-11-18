@@ -235,7 +235,11 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***90. Manejo de Matrices en Java - parte 5***
 ***Class#91***
     ***91. Lección: Diseño de Clases en Java***
+***Class#92***
+    ***92. Ejercicio: Diseño de Clases en Java***
 ***Links***
+    Design Class:
+        https://github.com/gsuscastellanosSC/uJava/tree/main/src/fundamentosJava/designClass
     Uml:
         https://www.umlet.com/
     Arrays Of Arrays:

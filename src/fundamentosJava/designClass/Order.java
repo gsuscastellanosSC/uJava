@@ -19,15 +19,23 @@ public class Order {
     public Order() {
         this.idOrder = ++accOrders;
     }
-    
-    public void addProduct(Product product){
-        
+
+    public void addProduct(Product product) {
+        if (MAX_PRODUCTS < 10) {
+            products[this.idOrder] = new Product();
+        } else {
+            System.out.println("Max Products Over Flow.");
+        }
     }
-    
-    public double calculateTotal(){
-        return 1;
+
+    public double calculateTotal() {
+        double ac = 0;
+        for (int i = 0; i < products.length; i++) {
+            ac = products[i].getCost() + ac;
+        }
+        return ac;
     }
-    
+
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
@@ -37,6 +45,5 @@ public class Order {
         sb.append('}');
         return sb.toString();
     }
-    
-    
+
 }

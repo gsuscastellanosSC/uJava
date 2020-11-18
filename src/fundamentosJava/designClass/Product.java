@@ -11,7 +11,7 @@ package fundamentosJava.designClass;
  */
 public class Product {
 
-    private int idProduct;
+    private final int idProduct;
     private String name;
     private double cost;
     private static int accProducts;
@@ -21,7 +21,7 @@ public class Product {
     }
 
     public Product(String name, double cost) {
-        this.idProduct = ++accProducts;
+        this();
         this.name = name;
         this.cost = cost;
     }
