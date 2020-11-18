@@ -38,14 +38,13 @@ public class Order {
         return total;
     }
 
-    @Override
-    public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append("Order{idOrder=").append(idOrder);
-        sb.append(", products=").append(products);
-        sb.append(", MAX_PRODUCTS=").append(MAX_PRODUCTS);
-        sb.append('}');
-        return sb.toString();
+    public void showOrder() {
+        System.out.println("Id Order: " + this.idOrder);
+        System.out.println("Total Order: $" + this.calculateTotal());
+        System.out.println("Products into the Order: ");
+        for (int i = 0; i < this.accPorducts; i++) {
+            System.out.println(this.products[i]);
+        }
     }
 
 }
