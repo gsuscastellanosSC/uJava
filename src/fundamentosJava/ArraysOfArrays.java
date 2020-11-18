@@ -30,8 +30,12 @@ public class ArraysOfArrays {
         String arraysOfArraysShort[][] = {{"0", "1"}, {"1", "0"}, {"1", "1"}};
         printArrayOfArrays2d(arraysOfArraysShort);
         
-
+        System.out.println("\nArray Of Arrays Objects");
+        Person persons[][] = new Person[rows][columns];
         
+        persons[0][0] = new Person("Jesus");
+        persons[0][1] = new Person("Jhon");
+        printArrayOfArrays2d(persons);
     }
     
     public static void printArrayOfArrays2d(Object arrayOfArrays2d[][]) {
