@@ -17,17 +17,13 @@ public class Product {
     private static int accProducts;
 
     public Product() {
-        this.idProduct = ++accProducts;
+        this.idProduct = ++Product.accProducts;
     }
 
     public Product(String name, double cost) {
         this();
         this.name = name;
         this.cost = cost;
-    }
-
-    public int getIdProduct() {
-        return idProduct;
     }
 
     public String getName() {
@@ -48,10 +44,6 @@ public class Product {
 
     public void setCost(double cost) {
         this.cost = cost;
-    }
-
-    public static void setAccProducts(int aAccProducts) {
-        accProducts = aAccProducts;
     }
 
     @Override

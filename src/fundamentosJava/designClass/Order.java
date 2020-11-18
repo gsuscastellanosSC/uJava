@@ -14,18 +14,19 @@ public class Order {
     private final int idOrder;
     private Product products[];
     private static int accOrders;
-    private final int MAX_PRODUCTS = 10;
+    private int accPorducts;
+    private static final int MAX_PRODUCTS = 10;
 
     public Order() {
-        this.idOrder = ++accOrders;
+        this.idOrder = ++Order.accOrders;
         this.products = new Product[MAX_PRODUCTS];
     }
 
     public void addProduct(Product product) {
-        if (MAX_PRODUCTS < 10) {
-            products[this.idOrder] = new Product();
+        if (this.accPorducts < Order.MAX_PRODUCTS) {
+            products[accPorducts++] = new Product();
         } else {
-            System.out.println("Max Products Over Flow.");
+            System.out.println("Max Products Over Flow: " + Order.MAX_PRODUCTS);
         }
     }
 
