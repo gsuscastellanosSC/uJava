@@ -11,13 +11,14 @@ package fundamentosJava.designClass;
  */
 public class Order {
 
-    private int idOrder;
+    private final int idOrder;
     private Product products[];
     private static int accOrders;
     private final int MAX_PRODUCTS = 10;
 
     public Order() {
         this.idOrder = ++accOrders;
+        this.products = new Product[MAX_PRODUCTS];
     }
 
     public void addProduct(Product product) {
