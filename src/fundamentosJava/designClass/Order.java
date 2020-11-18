@@ -31,11 +31,11 @@ public class Order {
     }
 
     public double calculateTotal() {
-        double ac = 0;
-        for (int i = 0; i < products.length; i++) {
-            ac = products[i].getCost() + ac;
+        double total = 0;
+        for (int i = 0; i < this.accPorducts; i++) {
+            total += this.products[i].getCost();
         }
-        return ac;
+        return total;
     }
 
     @Override
