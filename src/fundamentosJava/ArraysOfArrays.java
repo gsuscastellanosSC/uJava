@@ -5,12 +5,14 @@
  */
 package fundamentosJava;
 
+import fundamentosJava.Inheritance.Person;
+
 /**
  *
  * @author sc
  */
 public class ArraysOfArrays {
-
+    
     public static void main(String[] args) {
         int rows = 3;
         int columns = 2;
@@ -21,9 +23,17 @@ public class ArraysOfArrays {
         arrayOfArrays[1][1] = "1-1";
         arrayOfArrays[2][0] = "2-0";
         arrayOfArrays[2][1] = "2-1";
+        System.out.println("Array Of Arrays");
         printArrayOfArrays2d(arrayOfArrays);
-    }
+        
+        System.out.println("Array Of Arrays Short");
+        String arraysOfArraysShort[][] = {{"0", "1"}, {"1", "0"}, {"1", "1"}};
+        printArrayOfArrays2d(arraysOfArraysShort);
+        
 
+        
+    }
+    
     public static void printArrayOfArrays2d(Object arrayOfArrays2d[][]) {
         System.out.print("[");
         for (int row = 0; row < arrayOfArrays2d.length; row++) {
