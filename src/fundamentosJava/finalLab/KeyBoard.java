@@ -11,7 +11,7 @@ package fundamentosJava.finalLab;
  */
 public class KeyBoard extends InputPeripherals {
 
-    private int idKeyBoard;
+    private final int idKeyBoard;
     private static int accKeyBoard;
 
     public KeyBoard(String typeInput, String brand) {

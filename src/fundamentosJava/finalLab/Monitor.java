@@ -11,7 +11,7 @@ package fundamentosJava.finalLab;
  */
 public class Monitor {
 
-    private int idMonitor;
+    private final int idMonitor;
     private String brand;
     private double size;
     private static int accMonitors;
