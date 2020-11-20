@@ -11,14 +11,14 @@ package fundamentosJava.finalLab;
  */
 public class Order {
 
-    private int idOrder;
+    private final int idOrder;
     private Pc pcs[];
     private static int accOrders;
-    private int accPcs;
     private static final int MAX_PCS = 10;
+    private int accPcs;
 
     public Order() {
-        idOrder = ++accOrders;
+        this.idOrder = ++Order.accOrders;
         this.pcs = new Pc[MAX_PCS];
     }
 
@@ -31,7 +31,7 @@ public class Order {
     }
 
     public void showOrder() {
-        System.out.println("IdOrder: " + this.idOrder);
+        System.out.println("IdOrder#:" + this.idOrder);
         System.out.println("PC's in the Order: ");
         for (int i = 0; i < this.accPcs; i++) {
             System.out.println(this.pcs[i]);

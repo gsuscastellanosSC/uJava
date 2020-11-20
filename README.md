@@ -255,6 +255,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***100. Solución - Laboratorio Final CFJ - parte 2***
 ***Class#101***
     ***101. Solución - Laboratorio Final CFJ - parte 3***
+***Class#102***
+    ***102. Solución - Laboratorio Final CFJ - parte 4***
 ***Links***
     Final Lab:
         https://github.com/gsuscastellanosSC/uJava/tree/main/src/fundamentosJava/finalLab
