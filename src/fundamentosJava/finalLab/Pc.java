@@ -11,14 +11,14 @@ package fundamentosJava.finalLab;
  */
 public class Pc {
 
-    private int idPc;
+    private final int idPc;
     private String name;
     private Monitor monitor;
     private KeyBoard keyBoard;
     private Mouse mouse;
     private static int accPc;
 
-    public Pc() {
+    private Pc() {
         this.idPc = ++Pc.accPc;
     }
 
@@ -32,10 +32,6 @@ public class Pc {
 
     public int getIdPc() {
         return idPc;
-    }
-
-    public void setIdPc(int idPc) {
-        this.idPc = idPc;
     }
 
     public String getName() {
@@ -80,7 +76,7 @@ public class Pc {
 
     @Override
     public String toString() {
-        return "Pc{" + "idPc=" + this.idPc + ", name=" + this.name + ", monitor=" + monitor.toString() + ", keyBoard=" + keyBoard.toString() + ", mouse=" + mouse.toString() + '}';
+        return "Pc{" + "idPc=" + this.idPc + ", name=" + this.name + ", monitor=" + monitor + ", keyBoard=" + keyBoard + ", mouse=" + mouse + '}';
     }
-    
+
 }

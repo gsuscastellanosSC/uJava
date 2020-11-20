@@ -16,11 +16,11 @@ public class Monitor {
     private double size;
     private static int accMonitors;
 
-    Monitor() {
+    private Monitor() {
         this.idMonitor = ++accMonitors;
     }
 
-    Monitor(String brand, double size) {
+    public Monitor(String brand, double size) {
         this();
         this.brand = brand;
         this.size = size;

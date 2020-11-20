@@ -14,7 +14,7 @@ public class Mouse extends InputPeripherals {
     private final int idMouse;
     private static int accMouse;
 
-    Mouse(String typeInput, String brand) {
+    public Mouse(String typeInput, String brand) {
         super(typeInput, brand);
         this.idMouse = ++accMouse;
     }
