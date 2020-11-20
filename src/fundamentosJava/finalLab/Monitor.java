@@ -3,28 +3,27 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package fundamentosJavafinalLab;
+package fundamentosJava.finalLab;
 
 /**
  *
  * @author sc
  */
-public class InputPeripherals {
+public class Monitor {
 
-    private String typeInput;
+    private int idMonitor;
     private String brand;
+    private double size;
+    private static int accMonitors;
 
-    public InputPeripherals(String typeInput, String brand) {
-        this.typeInput = typeInput;
+    Monitor() {
+        this.idMonitor = ++accMonitors;
+    }
+
+    Monitor(String brand, double size) {
+        this();
         this.brand = brand;
-    }
-
-    public String getTypeInput() {
-        return typeInput;
-    }
-
-    public void setTypeInput(String typeInput) {
-        this.typeInput = typeInput;
+        this.size = size;
     }
 
     public String getBrand() {
@@ -35,11 +34,20 @@ public class InputPeripherals {
         this.brand = brand;
     }
 
+    public double getSize() {
+        return size;
+    }
+
+    public void setSize(double size) {
+        this.size = size;
+    }
+
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("InputPeripherals{typeInput=").append(typeInput);
+        sb.append("Monitor{idMonitor=").append(idMonitor);
         sb.append(", brand=").append(brand);
+        sb.append(", size=").append(size);
         sb.append('}');
         return sb.toString();
     }

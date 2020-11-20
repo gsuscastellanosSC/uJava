@@ -249,7 +249,11 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***97. Ejercicio: Diseño de Clases en Java - parte 6***
 ***Class#98***
     ***98. Laboratorio Final del curso Fundamentos de Java***
+***Class#99***
+    ***99. Solución - Laboratorio Final CFJ - parte 1***
 ***Links***
+    Final Lab:
+        https://github.com/gsuscastellanosSC/uJava/tree/main/src/fundamentosJava/FinalLab
     Design Class:
         https://github.com/gsuscastellanosSC/uJava/tree/main/src/fundamentosJava/designClass
     Uml:

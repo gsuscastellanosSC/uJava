@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package fundamentosJavafinalLab;
+package fundamentosJava.finalLab;
 
 /**
  *
@@ -15,7 +15,6 @@ public class KeyBoard extends InputPeripherals {
     private static int accKeyBoard;
 
     public KeyBoard(String typeInput, String brand) {
-
         super(typeInput, brand);
         this.idKeyBoard = ++accKeyBoard;
 

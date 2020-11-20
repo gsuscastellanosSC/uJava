@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package fundamentosJavafinalLab;
+package fundamentosJava.finalLab;
 
 /**
  *
@@ -11,7 +11,7 @@ package fundamentosJavafinalLab;
  */
 public class Mouse extends InputPeripherals {
 
-    private int idMouse;
+    private final int idMouse;
     private static int accMouse;
 
     Mouse(String typeInput, String brand) {
