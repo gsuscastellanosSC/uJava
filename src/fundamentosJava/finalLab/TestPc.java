@@ -13,9 +13,13 @@ public class TestPc {
 
     public static void main(String[] args) {
         Order oRderOne = new Order();
+        Order oRderTwo = new Order();
         Pc pc1 = new Pc("PcOne", new Monitor("HP", 20.000), new KeyBoard("Key Board", "HP"), new Mouse("Mouse", "Compaq"));
+        Pc pc2 = new Pc("PcOne", new Monitor("HP", 20.000), new KeyBoard("Key Board", "HP"), new Mouse("Mouse", "Compaq"));
         oRderOne.addPc(pc1);
+        oRderTwo.addPc(pc2);
         oRderOne.showOrder();
+        oRderTwo.showOrder();
 
     }
 }
