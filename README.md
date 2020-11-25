@@ -261,6 +261,10 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***103. Solución - Laboratorio Final CFJ - parte 5***
 ***Class#104***
     ***104. Ejercicio: Argumentos Variables en Java (varargs)***
+***Class#105***
+    ***105. Manejo de Enumeraciones (enum) en Java***
+    Are:
+        public, Static and final.
 ***Links***
     Final Lab:
         https://github.com/gsuscastellanosSC/uJava/tree/main/src/fundamentosJava/finalLab
