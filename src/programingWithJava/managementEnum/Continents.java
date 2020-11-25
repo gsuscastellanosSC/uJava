@@ -25,4 +25,5 @@ public enum Continents {
     public int getContries() {
         return this.CONTRIES;
     }
+
 }

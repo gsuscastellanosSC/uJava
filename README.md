@@ -267,6 +267,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
         public, Static and final.
 ***Class#106***
     ***106. Ejercicio: Manejo de Enumeraciones en Java - parte 2***
+***Class#107***
+    ***107. Ejercicio: Manejo de Enumeraciones en Java - parte 3***
 ***Links***
     Final Lab:
         https://github.com/gsuscastellanosSC/uJava/tree/main/src/fundamentosJava/finalLab
