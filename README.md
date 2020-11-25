@@ -265,6 +265,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***105. Manejo de Enumeraciones (enum) en Java***
     Are:
         public, Static and final.
+***Class#106***
+    ***106. Ejercicio: Manejo de Enumeraciones en Java - parte 2***
 ***Links***
     Final Lab:
         https://github.com/gsuscastellanosSC/uJava/tree/main/src/fundamentosJava/finalLab
