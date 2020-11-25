@@ -259,6 +259,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***102. Solución - Laboratorio Final CFJ - parte 4***
 ***Class#103***
     ***103. Solución - Laboratorio Final CFJ - parte 5***
+***Class#104***
+    ***104. Ejercicio: Argumentos Variables en Java (varargs)***
 ***Links***
     Final Lab:
         https://github.com/gsuscastellanosSC/uJava/tree/main/src/fundamentosJava/finalLab
