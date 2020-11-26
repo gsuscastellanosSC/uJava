@@ -6,6 +6,7 @@
 package programingWithJava.test;
 
 import programingWithJava.managementForEach.forEach;
+import fundamentosJava.inheritance.Person;
 
 /**
  *
@@ -14,6 +15,9 @@ import programingWithJava.managementForEach.forEach;
 public class ForEachTest {
 
     public static void main(String[] args) {
-        forEach.execute();
+        Object ages[] = {5, 6, 8, 9};
+        forEach.execute(ages);
+        Person p1[] = {new Person("Jesús"), new Person(), new Person(), new Person(), new Person()};
+        forEach.execute(p1);
     }
 }

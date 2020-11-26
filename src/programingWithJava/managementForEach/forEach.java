@@ -11,11 +11,9 @@ package programingWithJava.managementForEach;
  */
 public class forEach {
 
-    private static int ages[] = {5, 6, 8, 9};
-
-    public static void execute() {
-        for (int age : forEach.ages) {
-            System.out.println("age = " + age);
+    public static void execute(Object elements[]) {
+        for (Object element : elements) {
+            System.out.println("element = " + element + ", the type " + element.getClass());
         }
     }
 
