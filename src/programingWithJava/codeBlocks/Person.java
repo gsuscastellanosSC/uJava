@@ -32,4 +32,12 @@ public class Person {
         return IDPERSON;
     }
 
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Person{IDPERSON=").append(IDPERSON);
+        sb.append('}');
+        return sb.toString();
+    }
+
 }
