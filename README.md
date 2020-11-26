@@ -273,6 +273,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***108. Manejo de Bloques de Código en Java***
 ***Class#109***
     ***109. Manejo de Bloques de Código en Java - parte 2***
+***Class#110**
+    ***110. Manejo de forEach en Java***
 ***Links***
     Programing With Java:
         https://github.com/gsuscastellanosSC/uJava/tree/main/src/programingWithJava
