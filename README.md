@@ -277,6 +277,17 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***110. Manejo de forEach en Java***
 ***Class#111***
     ***111. Manejo de forEach en Java - parte 2***
+***Class#112***
+    ***112. Autoboxing y Unboxing en Java***
+     Primitive    Wrapper
+        int     - Integer
+        long    - Long
+        float   - Folat
+        double  - Double
+        boolean - Bolean
+        byte    - Byte
+        char    - Charter
+        short   - Short
 ***Links***
     Programing With Java:
         https://github.com/gsuscastellanosSC/uJava/tree/main/src/programingWithJava
