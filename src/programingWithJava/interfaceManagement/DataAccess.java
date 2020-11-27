@@ -10,10 +10,14 @@ package programingWithJava.interfaceManagement;
  * @author sc
  */
 public interface DataAccess {
+
     int MAX_REGISTRY = 10;
-    
+
     void insert();
+
     void list();
+
     void update();
+
     void delete();
 }
