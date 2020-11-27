@@ -323,6 +323,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***123. Lección: Conversión de Objetos (casting) en Java***
     UpCasting
     downcasting
+***Class#124***
+    ***124. Conversión de Objetos (casting) en Java - parte 2***
 ***Links***
     Programing With Java:
         https://github.com/gsuscastellanosSC/uJava/tree/main/src/programingWithJava
