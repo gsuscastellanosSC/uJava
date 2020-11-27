@@ -339,8 +339,10 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***130. Manejo de Interfaces en Java - parte 2***
 ***Class#131***
     ***131. Manejo de Interfaces en Java - parte 3***
-***Class#131***
+***Class#132***
     ***132. Manejo de Interfaces en Java - parte 4***
+***Class#133***
+    ***133. Manejo de JavaBeans***
 ***Links***
     Programing With Java:
         https://github.com/gsuscastellanosSC/uJava/tree/main/src/programingWithJava
