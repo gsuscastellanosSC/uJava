@@ -288,6 +288,19 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
         byte    - Byte
         char    - Charter
         short   - Short
+***Class#113***
+    ***113. Modificadores de Acceso en Java - public***
+        ......................................................
+        |Modificador |Clase | Variable | Método | Constructor|
+        ------------------------------------------------------
+        |public      |  Si  |    Si    |   Si   |     Si     |
+        ------------------------------------------------------
+        |protected   |  No  |    Si    |   Si   |     Si     |
+        ------------------------------------------------------
+        |default *   |  Si  |    Si    |   Si   |     Si     |
+        ------------------------------------------------------
+        |private     |  No  |    Si    |   Si   |     Si     |
+        ------------------------------------------------------    
 ***Links***
     Programing With Java:
         https://github.com/gsuscastellanosSC/uJava/tree/main/src/programingWithJava
