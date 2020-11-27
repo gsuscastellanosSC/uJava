@@ -307,6 +307,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***115. Modificadores de Acceso en Java - default o package***
 ***Class#116***
     ***116. Modificadores de Acceso en Java - private***
+***Class#117***
+    ***117. Sobreescritura de Métodos en Java (overriding)***
 ***Links***
     Programing With Java:
         https://github.com/gsuscastellanosSC/uJava/tree/main/src/programingWithJava
