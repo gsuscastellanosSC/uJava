@@ -303,6 +303,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
         ------------------------------------------------------    
 ***Class#114***
     ***114. Modificadores de Acceso en Java - protected***
+***Class#115***
+    ***115. Modificadores de Acceso en Java - default o package***
 ***Links***
     Programing With Java:
         https://github.com/gsuscastellanosSC/uJava/tree/main/src/programingWithJava
