@@ -5,6 +5,8 @@
  */
 package programingWithJava.test;
 
+import programingWithJava.abstractClass.Rectangle;
+
 /**
  *
  * @author sc
@@ -12,6 +14,7 @@ package programingWithJava.test;
 public class AbstractClassTest {
 
     public static void main(String[] args) {
-
+        Rectangle figureOne = new Rectangle("Rectangle");
+        figureOne.draw();
     }
 }

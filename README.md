@@ -331,6 +331,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***126. Clase Object en Java - parte 2***
 ***Class#127***
     ***127. Clases Abstractas en Java***
+***Class#128***
+    ***128. Clases Abstractas en Java - parte 2***
 ***Links***
     Programing With Java:
         https://github.com/gsuscastellanosSC/uJava/tree/main/src/programingWithJava

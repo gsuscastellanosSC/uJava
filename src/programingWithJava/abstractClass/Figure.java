@@ -17,7 +17,7 @@ public abstract class Figure {
         this.figureType = figureType;
     }
 
-    public abstract void toDraw();
+    public abstract void draw();
 
     public String getFigureType() {
         return figureType;
@@ -26,5 +26,8 @@ public abstract class Figure {
     public void setFigureType(String figureType) {
         this.figureType = figureType;
     }
+
+    @Override
+    public abstract String toString();
 
 }
