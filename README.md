@@ -319,6 +319,10 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***121. Lección: Palabra instance of en Java***
 ***Class#122***
     ***122. Ejercicio: Palabra instance of en Java***
+***Class#123***
+    ***123. Lección: Conversión de Objetos (casting) en Java***
+    UpCasting
+    downcasting
 ***Links***
     Programing With Java:
         https://github.com/gsuscastellanosSC/uJava/tree/main/src/programingWithJava
