@@ -5,7 +5,8 @@
  */
 package programingWithJava.test;
 
-import programingWithJava.accessModifiers.packageOne.ClassOne;
+import programingWithJava.accessModifiers.packageOne.ClassPublic;
+import programingWithJava.accessModifiers.packageOne.ClassProtected;
 
 /**
  *
@@ -14,8 +15,11 @@ import programingWithJava.accessModifiers.packageOne.ClassOne;
 public class AccessModifiersTest {
 
     public static void main(String[] args) {
-        ClassOne class1 = new ClassOne();
-        System.out.println("Class1 = " + class1.PublicAttribute);
+        System.out.println("Public: ");
+        ClassPublic class1 = new ClassPublic();
+        System.out.println("        Class1 = " + class1.PublicAttribute);
         class1.methodPublic();
+        System.out.println("Protected: ");
+        ClassProtected class2 = new ClassProtected("Public");
     }
 }

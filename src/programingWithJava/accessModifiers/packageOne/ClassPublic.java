@@ -9,15 +9,15 @@ package programingWithJava.accessModifiers.packageOne;
  *
  * @author sc
  */
-public class ClassOne {
+public class ClassPublic {
 
     public String PublicAttribute = "Public Attribute Value...";
 
-    public ClassOne() {
-        System.out.println("Running public builder");
+    public ClassPublic() {
+        System.out.println("        Running public builder");
     }
     
     public void methodPublic(){
-        System.out.println("Running public method...");
+        System.out.println("        Running public method...");
     }
 }
