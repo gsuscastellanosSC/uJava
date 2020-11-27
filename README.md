@@ -327,6 +327,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***124. Conversión de Objetos (casting) en Java - parte 2***
 ***Class#125***
     ***125. Clase Object en Java***
+***Class#126***
+    ***126. Clase Object en Java - parte 2***
 ***Links***
     Programing With Java:
         https://github.com/gsuscastellanosSC/uJava/tree/main/src/programingWithJava
