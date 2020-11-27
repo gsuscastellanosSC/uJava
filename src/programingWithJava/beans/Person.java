@@ -38,7 +38,7 @@ public class Person implements Serializable {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("Person{name=").append(name);
+        sb.append("     Person{name=").append(name);
         sb.append(", lastaName=").append(lastaName);
         sb.append('}');
         return sb.toString();

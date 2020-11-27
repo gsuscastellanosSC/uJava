@@ -5,6 +5,8 @@
  */
 package programingWithJava.test;
 
+import programingWithJava.beans.Person;
+
 /**
  *
  * @author sc
@@ -12,7 +14,11 @@ package programingWithJava.test;
 public class BeansTest {
 
     public static void main(String[] args) {
-        
+        Person personOne = new Person();
+        personOne.setName("Jesus");
+        personOne.setLastaName("Castellanos");
+        System.out.println(personOne);
+        System.out.println(personOne.getName() + " " + personOne.getLastaName());
     }
 
 }
