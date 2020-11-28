@@ -11,11 +11,8 @@ package programingWithJava.exeptionsManagement;
  */
 public class ExceptionOperation extends Exception {
 
-   
     public ExceptionOperation(String menssage) {
         super(menssage);
     }
-    
-    
 
 }

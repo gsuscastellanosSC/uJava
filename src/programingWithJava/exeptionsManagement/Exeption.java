@@ -18,6 +18,6 @@ public class Exeption {
         } catch (Exception e) {
             e.printStackTrace(System.out);
         }
-        System.out.println(x + " / " + y + "= " + ((ans == 0) ? "Infinity(RuntimeExeption)" : ans));
+        System.out.println(x + " / " + y + " = " + ((ans == 0) ? "Infinity(RuntimeExeption)" : ans));
     }
 }
