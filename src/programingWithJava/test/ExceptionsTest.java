@@ -22,12 +22,7 @@ public class ExceptionsTest {
         int ans = 0;
         int x = 0;
         int y = 0;
-        try {
-            ans = Arithmetic.div(x, y);
-        } catch (Exception e) {
-            System.out.println("Error:\n        " + e.getMessage());
-            e.printStackTrace(System.out);
-        }
+        ans = Arithmetic.div(x, y);
         System.out.println("        " + x + " / " + y + " = " + ((ans == 0) ? "+/-oo" : ans));
     }
 }

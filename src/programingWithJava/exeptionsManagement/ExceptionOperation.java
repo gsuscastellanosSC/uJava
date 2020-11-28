@@ -9,7 +9,7 @@ package programingWithJava.exeptionsManagement;
  *
  * @author sc
  */
-public class ExceptionOperation extends Exception {
+public class ExceptionOperation extends RuntimeException {
 
     public ExceptionOperation(String menssage) {
         super(menssage);

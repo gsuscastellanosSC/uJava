@@ -10,7 +10,7 @@ package programingWithJava.exeptionsManagement;
  */
 public class Arithmetic {
 
-    public static int div(int x, int y) throws ExceptionOperation {
+    public static int div(int x, int y) {
         if (y == 0) {
             throw new ExceptionOperation("My exception +/-oo");
         }
