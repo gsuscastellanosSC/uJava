@@ -345,6 +345,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***133. Manejo de JavaBeans***
 ***Class#134***
     ***134. Manejo de JavaBeans - parte 2***
+***Class#135***
+    ***135. Manejo de Excepciones en Java - parte 1***
 ***Links***
     Programing With Java:
         https://github.com/gsuscastellanosSC/uJava/tree/main/src/programingWithJava
