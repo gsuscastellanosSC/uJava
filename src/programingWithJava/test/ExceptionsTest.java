@@ -6,6 +6,7 @@
 package programingWithJava.test;
 
 import programingWithJava.exeptionsManagement.Arithmetic;
+import programingWithJava.exeptionsManagement.ExceptionOperation;
 import programingWithJava.exeptionsManagement.Exeption;
 
 /**
@@ -22,7 +23,19 @@ public class ExceptionsTest {
         int ans = 0;
         int x = 0;
         int y = 0;
-        ans = Arithmetic.div(x, y);
-        System.out.println("        " + x + " / " + y + " = " + ((ans == 0) ? "+/-oo" : ans));
+        try {
+            ans = Arithmetic.div(x, y);
+        } catch (ExceptionOperation e) {
+            System.out.println("       type Exception: ExceptionOperation \n       " + e.getMessage());
+        } catch (Exception e) {
+            System.out.println("\n");
+            System.out.println("type Exception: Exception \n       " + e.getMessage());
+            e.printStackTrace(System.out);
+        } finally {
+            System.out.println("finally: validate " + x + " / " + y);
+        }
+
+        System.out.println(
+                "        " + x + " / " + y + " = " + ((ans == 0) ? "+/-oo" : ans));
     }
 }

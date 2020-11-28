@@ -355,6 +355,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***138. Manejo de Excepciones en Java - parte 4***
 ***Class#139***
     ***139. Manejo de Excepciones en Java - parte 5***
+***Class#140***
+    ***140. Manejo de Excepciones en Java - parte 6***
 ***Links***
     Programing With Java:
         https://github.com/gsuscastellanosSC/uJava/tree/main/src/programingWithJava
