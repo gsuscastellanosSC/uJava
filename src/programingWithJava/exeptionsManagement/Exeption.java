@@ -11,13 +11,13 @@ package programingWithJava.exeptionsManagement;
  */
 public class Exeption {
 
-    public static void div(int x) {
+    public static void div(int x, int y) {
         int ans = 0;
         try {
-            ans = x / 0;
+            ans = x / y;
         } catch (Exception e) {
             e.printStackTrace(System.out);
         }
-        System.out.println("    x/0 = " + ((ans==0)?"Indefindo":ans));
+        System.out.println(x + " / " + y + "= " + ((ans == 0) ? "Infinity(RuntimeExeption)" : ans));
     }
 }

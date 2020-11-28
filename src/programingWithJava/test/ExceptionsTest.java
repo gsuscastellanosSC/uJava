@@ -14,6 +14,6 @@ import programingWithJava.exeptionsManagement.Exeption;
 public class ExceptionsTest {
 
     public static void main(String[] args) {
-        Exeption.div(1);
+        Exeption.div(1000, 0);
     }
 }
