@@ -6,7 +6,9 @@
 package programingWithJava.test;
 
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 import programingWithJava.collections.Collections;
 
@@ -33,7 +35,20 @@ public class CollectionsTest {
         mySet.add("Friday");
         mySet.add("Saturday");
         mySet.add("Sunday");
-        showData(mySet);
+//        showData(mySet);
+
+        Map myMap = new HashMap();
+        myMap.put("keyDayOne", "Monday");
+        myMap.put("keyDayTwo", "Tuesday");
+        myMap.put("keyDayThirteen", "Wednesday");
+        myMap.put("keyDayFour", "Thursday");
+        myMap.put("keyDayFive", "Friday");
+        myMap.put("keyDaySix", "Saturday");
+        myMap.put("keyDaySeven", "Sunday");
+
+        showData(myMap.keySet());
+        showData(myMap.values());
+
     }
 
     public static void showData(Collection collection) {
