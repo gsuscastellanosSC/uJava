@@ -369,6 +369,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
             * HashMap
 ***Class#142***
     ***142. Ejercicio: API de Collections en Java***
+***Class#143***
+    ***143. Set en Java***
 ***Links***
     Programing With Java:
         https://github.com/gsuscastellanosSC/uJava/tree/main/src/programingWithJava

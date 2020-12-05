@@ -5,6 +5,9 @@
  */
 package programingWithJava.test;
 
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.Set;
 import programingWithJava.collections.Collections;
 
 /**
@@ -21,11 +24,23 @@ public class CollectionsTest {
         Collections.myList.add("Friday");
         Collections.myList.add("Saturday");
         Collections.myList.add("Sunday");
-        
-//     for (Object element : Collections.myList) {
+
+        Set mySet = new HashSet();
+        mySet.add("Monday");
+        mySet.add("Tuesday");
+        mySet.add("Wednesday");
+        mySet.add("Thursday");
+        mySet.add("Friday");
+        mySet.add("Saturday");
+        mySet.add("Sunday");
+        showData(mySet);
+    }
+
+    public static void showData(Collection collection) {
+        //     for (Object element : collection) {
 //            System.out.println("element = " + element);
 //        }
-        Collections.myList.forEach(element -> {
+        collection.forEach(element -> {
             System.out.println("element = " + element);
         });
     }
