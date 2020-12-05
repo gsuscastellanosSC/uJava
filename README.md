@@ -375,6 +375,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***144. Map en Java***
 ***Class#145***
     ***145. Manejo de Generics en Java - parte 1***
+***Class#146***
+    ***146. Manejo de Generics en Java - parte 2***
 ***Links***
     Programing With Java:
         https://github.com/gsuscastellanosSC/uJava/tree/main/src/programingWithJava
