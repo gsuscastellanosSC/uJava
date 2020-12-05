@@ -363,10 +363,12 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
             * Set:
                 * HashSet
             * List:
-                * ArrayList
+                * ArrayList: Importa el orden.
                 * Vector
         Interface Map:
             * HashMap
+***Class#142***
+    ***142. Ejercicio: API de Collections en Java***
 ***Links***
     Programing With Java:
         https://github.com/gsuscastellanosSC/uJava/tree/main/src/programingWithJava
