@@ -5,11 +5,14 @@
  */
 package programingWithJava.FileManagement;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.nio.Buffer;
 import java.util.Date;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -52,19 +55,43 @@ public class FileManagement {
 
     public static void addContentToFile(String fileName, String content) {
         PrintWriter output = null;
-        File file = new File(fileName);
         try {
+            File file = new File(fileName);
             output = new PrintWriter(new FileWriter(fileName, true));
             output.println(new Date() + " ### " + content);
-            System.out.println("The file was written");
+            System.out.println("Add content to file");
         } catch (FileNotFoundException ex) {
             ex.printStackTrace(System.out);
             output.close();
-            System.out.println("File create successful");
         } catch (IOException ex) {
             ex.printStackTrace(System.out);
         } finally {
             output.close();
+        }
+    }
+
+    public static void readFile(String fileName) {
+        BufferedReader input = null;
+        File file = new File(fileName);
+        try {
+            input = new BufferedReader(new FileReader(file));
+            String reader = input.readLine();
+            int line = 1;
+            while (reader != null) {
+                System.out.println("line="+(line++)+"reader = " + reader);
+                reader = input.readLine();
+            }
+            input.close();
+        } catch (FileNotFoundException ex) {
+            ex.printStackTrace(System.out);
+        } catch (IOException ex) {
+            ex.printStackTrace(System.out);
+        } finally {
+            try {
+                input.close();
+            } catch (IOException ex) {
+                ex.printStackTrace(System.out);
+            }
         }
     }
 }
