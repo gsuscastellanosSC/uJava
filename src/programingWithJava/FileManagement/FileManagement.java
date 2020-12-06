@@ -7,6 +7,8 @@ package programingWithJava.FileManagement;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Date;
 import java.util.logging.Level;
@@ -31,17 +33,36 @@ public class FileManagement {
             output.close();
         }
     }
-    public static void writeFile(String fileName, String content){
+
+    public static void writeFile(String fileName, String content) {
         PrintWriter output = null;
         File file = new File(fileName);
         try {
             output = new PrintWriter(fileName);
-            output.println(new Date()+" ### "+content);
+            output.println(new Date() + " ### " + content);
             System.out.println("The file was written");
         } catch (FileNotFoundException ex) {
             ex.printStackTrace(System.out);
             output.close();
             System.out.println("File create successful");
+        } finally {
+            output.close();
+        }
+    }
+
+    public static void addContentToFile(String fileName, String content) {
+        PrintWriter output = null;
+        File file = new File(fileName);
+        try {
+            output = new PrintWriter(new FileWriter(fileName, true));
+            output.println(new Date() + " ### " + content);
+            System.out.println("The file was written");
+        } catch (FileNotFoundException ex) {
+            ex.printStackTrace(System.out);
+            output.close();
+            System.out.println("File create successful");
+        } catch (IOException ex) {
+            ex.printStackTrace(System.out);
         } finally {
             output.close();
         }
