@@ -5,19 +5,7 @@
  */
 package programingWithJava.co.com.sc.movies.business;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.nio.Buffer;
-import java.util.Date;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import programingWithJava.co.com.sc.movies.data.DataAccessImpl;
-import programingWithJava.co.com.sc.movies.exeptions.WritingDataEx;
 import programingWithJava.co.com.sc.movies.data.DataAccess;
 import programingWithJava.co.com.sc.movies.domain.Movie;
 import programingWithJava.co.com.sc.movies.exeptions.DataAccessEx;
@@ -48,17 +36,42 @@ public class MoviesCatalogImpl implements MovieCatalog {
 
     @Override
     public void listMovies() {
-
+        try {
+            var movies = this.data.list(FILENAME);
+            for (var movie : movies) {
+                System.out.println("pelicula = " + movie);
+            }
+        } catch (DataAccessEx ex) {
+            System.out.println("Error de acceso a datos");
+            ex.printStackTrace(System.out);
+        }
     }
 
     @Override
     public void findMovie(String find) {
-
+        String result = null;
+        try {
+            result = this.data.find(FILENAME, find);
+        } catch (DataAccessEx ex) {
+            System.out.println("Error de acceso" + ex.getMessage());
+            ex.printStackTrace(System.out);
+        }
+        System.out.println("resultado = " + result);
     }
 
     @Override
-    public void startCatalogMovies(String fileName) {
-
+    public void startCatalogMovies() {
+        try {
+            if (this.data.exists(FILENAME)) {
+                data.delete(FILENAME);
+                data.create(FILENAME);
+            } else {
+                data.create(FILENAME);
+            }
+        } catch (DataAccessEx ex) {
+            System.out.println("Error al iniciar catalogo de peliculas");
+            ex.printStackTrace(System.out);
+        }
     }
 
 }

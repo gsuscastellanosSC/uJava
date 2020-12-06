@@ -19,5 +19,5 @@ public interface MovieCatalog {
 
     public void findMovie(String find);
 
-    public void startCatalogMovies(String fileName);
+    public void startCatalogMovies();
 }
