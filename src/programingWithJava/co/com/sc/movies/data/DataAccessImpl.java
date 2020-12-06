@@ -9,8 +9,9 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
-import java.nio.Buffer;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
@@ -57,7 +58,16 @@ public class DataAccessImpl implements DataAccess {
 
     @Override
     public void writing(Movie movie, String fileName, boolean append) throws WritingDataEx {
-
+        try {
+            File file = new File(fileName);
+            PrintWriter output = new PrintWriter(new FileWriter(file, append));
+            output.print(movie.toString());
+            output.close();
+            System.out.println("La pelicula: " + movie + " se agrego correctamente en el archivo: " + fileName);
+        } catch (IOException ex) {
+            ex.printStackTrace();
+            throw new WritingDataEx("Excepcion al gurdar pelicula." + ex.getMessage());
+        }
     }
 
     @Override
