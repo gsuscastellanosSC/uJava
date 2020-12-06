@@ -14,8 +14,6 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import programingWithJava.co.com.sc.movies.domain.Movie;
 import programingWithJava.co.com.sc.movies.exeptions.DataAccessEx;
 import programingWithJava.co.com.sc.movies.exeptions.ReadingDataEx;
@@ -60,7 +58,7 @@ public class DataAccessImpl implements DataAccess {
     public void writing(Movie movie, String fileName, boolean append) throws WritingDataEx {
         try {
             File file = new File(fileName);
-            PrintWriter output = new PrintWriter(new FileWriter(file, append));
+            PrintWriter output = new PrintWriter(new FileWriter(file, (append)));
             output.print(movie.toString());
             output.close();
             System.out.println("La pelicula: " + movie + " se agrego correctamente en el archivo: " + fileName);
@@ -72,7 +70,26 @@ public class DataAccessImpl implements DataAccess {
 
     @Override
     public String find(String fileName, String find) throws ReadingDataEx {
-
+        String result = null;
+        try {
+            File file = new File(fileName);
+            BufferedReader input = new BufferedReader(new FileReader(file));
+            String line = input.readLine();
+            int index = 0;
+            while (line != null) {
+                if(find != null && find.equalsIgnoreCase(line)){
+                    result = "Pelicula"+ line+" encontrada en el indice"+(index++);
+                    //break;
+                }                
+            }
+            input.close();
+        } catch (FileNotFoundException ex) {
+            ex.printStackTrace();
+            throw new ReadingDataEx("Excepcion al buscar pelicula" + ex.getMessage());
+        } catch (IOException ex) {
+            throw new ReadingDataEx("Excepcion al buscar pelicula" + ex.getMessage());
+        }
+        return result;
     }
 
     @Override
