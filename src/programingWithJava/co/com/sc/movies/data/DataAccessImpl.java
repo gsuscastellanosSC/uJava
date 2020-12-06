@@ -5,43 +5,74 @@
  */
 package programingWithJava.co.com.sc.movies.data;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.nio.Buffer;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import programingWithJava.co.com.sc.movies.domain.Movie;
+import programingWithJava.co.com.sc.movies.exeptions.DataAccessEx;
+import programingWithJava.co.com.sc.movies.exeptions.ReadingDataEx;
+import programingWithJava.co.com.sc.movies.exeptions.WritingDataEx;
 
 /**
  *
  * @author sc
  */
-public class DataAccessImpl implements DataAccess{
+public class DataAccessImpl implements DataAccess {
 
     @Override
-    public boolean exists(String fileName) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public boolean exists(String fileName) throws DataAccessEx {
+        File file = new File(fileName);
+        return file.exists();
     }
 
     @Override
-    public List<Movie> list(String fileName) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public List<Movie> list(String fileName) throws ReadingDataEx {
+        File file = new File(fileName);
+        List<Movie> movies = new ArrayList<>();
+        try {
+            BufferedReader input = new BufferedReader(new FileReader(file));
+            String line = null;
+            line = input.readLine();
+            while (line != null) {
+                movies.add(new Movie(line));
+                line = input.readLine();
+            }
+            input.close();
+        } catch (FileNotFoundException ex) {
+            ex.printStackTrace();
+            throw new ReadingDataEx("Excepcion al listar peliculas" + ex.getMessage());
+        } catch (IOException ex) {
+            ex.printStackTrace();
+            throw new ReadingDataEx("Excepcion al listar peliculas" + ex.getMessage());
+        }
+        return movies;
     }
 
     @Override
-    public void writing(Movie movie, String fileName, boolean append) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void writing(Movie movie, String fileName, boolean append) throws WritingDataEx {
+
     }
 
     @Override
-    public String find(String fileName, String find) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public String find(String fileName, String find) throws ReadingDataEx {
+
     }
 
     @Override
-    public void create(String fileName) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void create(String fileName) throws DataAccessEx {
+
     }
 
     @Override
-    public void delete(String fileName) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void delete(String fileName) throws DataAccessEx {
+
     }
-    
+
 }
