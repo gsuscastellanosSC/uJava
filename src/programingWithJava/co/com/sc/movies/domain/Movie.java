@@ -27,9 +27,8 @@ public class Movie implements Serializable {
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append("Movie{name=").append(name);
-        sb.append('}');
-        return sb.toString();
+        return this.name;
     }
+
+    
 }

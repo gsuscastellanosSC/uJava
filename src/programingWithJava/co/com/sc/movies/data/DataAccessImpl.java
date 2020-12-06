@@ -58,8 +58,8 @@ public class DataAccessImpl implements DataAccess {
     public void writing(Movie movie, String fileName, boolean append) throws WritingDataEx {
         try {
             File file = new File(fileName);
-            PrintWriter output = new PrintWriter(new FileWriter(file, (append)));
-            output.print(movie.toString());
+            PrintWriter output = new PrintWriter(new FileWriter(fileName, true));
+            output.println(movie.toString());
             output.close();
             System.out.println("La pelicula: " + movie + " se agrego correctamente en el archivo: " + fileName);
         } catch (IOException ex) {
@@ -75,12 +75,14 @@ public class DataAccessImpl implements DataAccess {
             File file = new File(fileName);
             BufferedReader input = new BufferedReader(new FileReader(file));
             String line = input.readLine();
-            int index = 0;
+            int index = 1;
             while (line != null) {
                 if (find != null && find.equalsIgnoreCase(line)) {
-                    result = "Pelicula" + line + " encontrada en el indice " + (index++);
+                    result = "Pelicula" + line + " encontrada en el indice " + index;
                     //break;
                 }
+                line = input.readLine();
+                index++;
             }
             input.close();
         } catch (FileNotFoundException ex) {

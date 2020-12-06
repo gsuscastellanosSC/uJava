@@ -14,8 +14,6 @@ public class PresentationCatalogMovies {
         int option = -1;
         Scanner sc = new Scanner(System.in);
         MovieCatalog catalog = new MoviesCatalogImpl();
-        MovieCatalog movieCatalog = null;
-
         do {
             System.out.println("\n\n");
             System.out.println("##############################");
@@ -29,23 +27,20 @@ public class PresentationCatalogMovies {
             option = Integer.parseInt(sc.nextLine());
             switch (option) {
                 case 1:
-
+                    catalog.startCatalogMovies();
                     break;
                 case 2:
-
                     System.out.println("\nIntroduce el nombre de una pelicula a agregar:");
-                    fileName = sc.nextLine();
-
+                    String nameMovie = sc.nextLine();
+                    catalog.addMovie(nameMovie);
                     break;
                 case 3:
-
-                    //movieCatalog.listMovies("/home/sc/Documents/github/uJava/Catalog/movies.txt");
+                    catalog.listMovies();
                     break;
                 case 4:
-
                     System.out.println("\nIntroduce el nombre de una pelicula a buscar:");
-                    fileName = sc.nextLine();
-
+                    String nameMovieFind = sc.nextLine();
+                    catalog.findMovie(nameMovieFind);    
                     break;
                 case 0:
                     System.out.println("\nTerminando la app...");
@@ -53,6 +48,7 @@ public class PresentationCatalogMovies {
                     break;
                 default:
                     System.out.println("\nLa opción: " + option + ", no es valida.");
+                    break;
             }
         } while (option != 0);
     }
