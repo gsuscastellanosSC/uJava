@@ -9,10 +9,10 @@ package programingWithJava.co.com.sc.movies.exeptions;
  *
  * @author sc
  */
-public class WritingDataEx extends DataAccessEx{
-    
+public class WritingDataEx extends DataAccessEx {
+
     public WritingDataEx(String message) {
         super(message);
     }
-        
+
 }
