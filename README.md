@@ -379,6 +379,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***146. Manejo de Generics en Java - parte 2***
 ***Class#147***
     ***147. Colecciones Genéricas en Java - parte 1***
+***Class#148***
+    ***148. Colecciones Genéricas en Java - parte 2***
 ***Links***
     Programing With Java:
         https://github.com/gsuscastellanosSC/uJava/tree/main/src/programingWithJava
