@@ -9,6 +9,7 @@ import programingWithJava.FileManagement.FileManagement;
 public class FileManagementTest {
 
     public static void main(String[] args) {
-        FileManagement.createFile("/home/sc/Documents/github/uJava/test.txt");
+        //FileManagement.createFile("/home/sc/Documents/github/uJava/test.txt");
+        FileManagement.writeFile("/home/sc/Documents/github/uJava/test.txt", "Test");
     }
 }
