@@ -395,6 +395,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***154. Laboratorio: Proyecto Final Curso de Programación con Java***
 ***Class#155***
     ***155. Solución Laboratorio Final Programación con Java - parte 1***
+***Class#156***
+    ***156. Solución Laboratorio Final Programación con Java - parte 2***
 ***Links***
     Programing With Java:
         https://github.com/gsuscastellanosSC/uJava/tree/main/src/programingWithJava

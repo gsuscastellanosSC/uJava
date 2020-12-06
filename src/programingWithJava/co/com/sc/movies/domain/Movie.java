@@ -1,10 +1,12 @@
 package programingWithJava.co.com.sc.movies.domain;
 
+import java.io.Serializable;
+
 /**
  *
  * @author sc
  */
-public class Movie {
+public class Movie implements Serializable {
 
     private String name;
 
