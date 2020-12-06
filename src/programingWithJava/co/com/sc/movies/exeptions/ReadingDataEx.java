@@ -11,4 +11,8 @@ package programingWithJava.co.com.sc.movies.exeptions;
  */
 public class ReadingDataEx extends DataAccessEx{
     
+    public ReadingDataEx(String message) {
+        super(message);
+    }
+    
 }

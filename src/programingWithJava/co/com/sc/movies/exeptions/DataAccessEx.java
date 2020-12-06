@@ -9,6 +9,10 @@ package programingWithJava.co.com.sc.movies.exeptions;
  *
  * @author sc
  */
-public class DataAccessEx {
+public class DataAccessEx extends RuntimeException{
+
+    public DataAccessEx(String message) {
+        super(message);
+    }
     
 }

@@ -8,45 +8,62 @@ package programingWithJava.co.com.sc.movies.test;
 import java.util.Scanner;
 import javax.xml.catalog.Catalog;
 import programingWithJava.co.com.sc.movies.business.MovieCatalog;
+import programingWithJava.co.com.sc.movies.business.MoviesCatalogImpl;
 
 /**
  *
  * @author sc
  */
 public class MoviesTest {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int option = 0;
         String fileName;
-        MovieCatalog movieCatalog;
-        
-        do {            
-            System.out.println("Elige opción:");
-            System.out.println("1.-Inicia catalogo peliculas");
-            System.out.println("2.-Agregar Peliculas");
-            System.out.println("3.-Listar Peliculas");
-            System.out.println("4.-Buscar Pelicula");
-            System.out.println("0.-Salir");
+        MovieCatalog movieCatalog = null;
+
+        do {
+            System.out.println("\n\n");
+            System.out.println("##############################");
+            System.out.println("\nElige opción:");
+            System.out.println("    1.-Inicia catalogo peliculas");
+            System.out.println("    2.-Agregar Peliculas");
+            System.out.println("    3.-Listar Peliculas");
+            System.out.println("    4.-Buscar Pelicula");
+            System.out.println("    0.-Salir");
+            System.out.println("##############################");
             option = Integer.parseInt(sc.nextLine());
-            switch (option){
+            switch (option) {
                 case 1:
-                    System.out.println(option);
+                    movieCatalog = validateMovieCatalog(movieCatalog);
                     break;
                 case 2:
-                    System.out.println(option);
+                    movieCatalog = validateMovieCatalog(movieCatalog);
+                    System.out.println("\nIntroduce el nombre de una pelicula a agregar:");
+                    fileName = sc.nextLine();
+                    movieCatalog.addMovie(fileName, "/home/sc/Documents/github/uJava/Catalog/movies.txt");
                     break;
                 case 3:
-                    System.out.println(option);
+                    movieCatalog = validateMovieCatalog(movieCatalog);
+                    movieCatalog.listMovies("/home/sc/Documents/github/uJava/Catalog/movies.txt");
                     break;
                 case 4:
-                    System.out.println(option);
+                    movieCatalog = validateMovieCatalog(movieCatalog);
+                    System.out.println("\nIntroduce el nombre de una pelicula a buscar:");
+                    fileName = sc.nextLine();
+                    movieCatalog.findMovie("/home/sc/Documents/github/uJava/Catalog/movies.txt", fileName);
                     break;
                 case 0:
-                    System.out.println(option);
+                    System.out.println("\nTerminando la app...");
+                    System.out.println("Su sessión finalizo correctamente");
                     break;
                 default:
-                    System.out.println("La opción: "+option+", no es valida.");
+                    System.out.println("\nLa opción: " + option + ", no es valida.");
             }
         } while (option != 0);
+    }
+
+    public static MovieCatalog validateMovieCatalog(MovieCatalog movieCatalog) {
+        return (movieCatalog == null) ? new MoviesCatalogImpl() : movieCatalog;
     }
 }
