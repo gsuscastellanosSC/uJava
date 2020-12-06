@@ -389,6 +389,10 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     ***151. Manejo de Archivos en Java - parte 3***
 ***Class#152***
     ***152. Manejo de Archivos en Java - parte 4***
+***Class#153***
+    ***153. Manejo de Archivos en Java***
+***Class#154***
+    ***154. Laboratorio: Proyecto Final Curso de Programación con Java***
 ***Links***
     Programing With Java:
         https://github.com/gsuscastellanosSC/uJava/tree/main/src/programingWithJava
