@@ -1,9 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package programingWithJava.co.com.sc.movies.test;
+package programingWithJava.co.com.sc.movies.presentation;
 
 import java.util.Scanner;
 import programingWithJava.co.com.sc.movies.business.MovieCatalog;
@@ -13,12 +8,12 @@ import programingWithJava.co.com.sc.movies.business.MoviesCatalogImpl;
  *
  * @author sc
  */
-public class MoviesTest {
+public class PresentationCatalogMovies {
 
     public static void main(String[] args) {
+        int option = -1;
         Scanner sc = new Scanner(System.in);
-        int option = 0;
-        String fileName;
+        MovieCatalog catalog = new MoviesCatalogImpl();
         MovieCatalog movieCatalog = null;
 
         do {

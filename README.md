@@ -412,7 +412,9 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
 ***Class#163***
     ***163. Solución Laboratorio Final Programación con Java - parte 9***
 ***Class#164***
-    164. Solución Laboratorio Final Programación con Java - parte 10
+    ***164. Solución Laboratorio Final Programación con Java - parte 10***
+***Class#165***
+    165. Solución Laboratorio Final Programación con Java - parte 11
 ***Links***
     Programing With Java:
         https://github.com/gsuscastellanosSC/uJava/tree/main/src/programingWithJava

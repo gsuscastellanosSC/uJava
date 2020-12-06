@@ -18,9 +18,9 @@ public class MoviesCatalogImpl implements MovieCatalog {
 
     private final DataAccess data;
 
-    public MoviesCatalogImpl(DataAccess data) {
+    public MoviesCatalogImpl() {
         this.data = new DataAccessImpl();
-    }
+    }    
 
     @Override
     public void addMovie(String nameMovie) {
