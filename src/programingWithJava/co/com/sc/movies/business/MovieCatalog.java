@@ -11,11 +11,13 @@ package programingWithJava.co.com.sc.movies.business;
  */
 public interface MovieCatalog {
 
-    public void addMovie(String nameMovie, String fileName);
+    String FILENAME = "Catalog/peliculas.txt";
 
-    public void listMovies(String fileName);
+    public void addMovie(String nameMovie);
 
-    public void findMovie(String nameFile, String find);
+    public void listMovies();
 
-    public void startFile(String fileName);
+    public void findMovie(String find);
+
+    public void startCatalogMovies(String fileName);
 }

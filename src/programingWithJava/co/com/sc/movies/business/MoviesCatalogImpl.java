@@ -16,7 +16,11 @@ import java.nio.Buffer;
 import java.util.Date;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import programingWithJava.co.com.sc.movies.data.DataAccessImpl;
 import programingWithJava.co.com.sc.movies.exeptions.WritingDataEx;
+import programingWithJava.co.com.sc.movies.data.DataAccess;
+import programingWithJava.co.com.sc.movies.domain.Movie;
+import programingWithJava.co.com.sc.movies.exeptions.DataAccessEx;
 
 /**
  *
@@ -24,24 +28,37 @@ import programingWithJava.co.com.sc.movies.exeptions.WritingDataEx;
  */
 public class MoviesCatalogImpl implements MovieCatalog {
 
-    @Override
-    public void addMovie(String nameMovie, String fileName) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    private final DataAccess data;
+
+    public MoviesCatalogImpl(DataAccess data) {
+        this.data = new DataAccessImpl();
     }
 
     @Override
-    public void listMovies(String fileName) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void addMovie(String nameMovie) {
+        Movie movie = new Movie(nameMovie);
+        try {
+            boolean append = data.exists(FILENAME);
+            data.writing(movie, FILENAME, append);
+        } catch (DataAccessEx ex) {
+            System.out.println("Error de acceso a datos");
+            ex.printStackTrace(System.out);
+        }
     }
 
     @Override
-    public void findMovie(String nameFile, String find) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void listMovies() {
+
     }
 
     @Override
-    public void startFile(String fileName) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void findMovie(String find) {
+
     }
-    
+
+    @Override
+    public void startCatalogMovies(String fileName) {
+
+    }
+
 }
