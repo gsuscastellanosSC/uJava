@@ -24,86 +24,24 @@ import programingWithJava.co.com.sc.movies.exeptions.WritingDataEx;
  */
 public class MoviesCatalogImpl implements MovieCatalog {
 
-    public MoviesCatalogImpl() {
-        System.out.println("Catalog create");
-    }
-
     @Override
     public void addMovie(String nameMovie, String fileName) {
-        PrintWriter output = null;
-        File file = new File(fileName);
-        try {
-            output = new PrintWriter(new FileWriter(fileName, true));
-            output.println(new Date() + " ### " + nameMovie);
-            System.out.println("Add movie to file");
-        } catch (WritingDataEx ex) {
-            System.out.println(ex.getMessage());
-            output.close();
-        } catch (IOException ex) {
-            System.out.println(ex.getMessage());
-        } finally {
-            output.close();
-        }
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
     public void listMovies(String fileName) {
-        BufferedReader input = null;
-        File file = new File(fileName);
-        try {
-            input = new BufferedReader(new FileReader(file));
-            String reader = input.readLine();
-            int line = 1;
-            while (reader != null) {
-                System.out.println((line++) + "° movie = " + reader);
-                reader = input.readLine();
-            }
-            input.close();
-        } catch (FileNotFoundException ex) {
-            ex.printStackTrace(System.out);
-        } catch (IOException ex) {
-            ex.printStackTrace(System.out);
-        } finally {
-            try {
-                input.close();
-            } catch (IOException ex) {
-                ex.printStackTrace(System.out);
-            }
-        }
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public void findMovie(String fileName, String find) {
-        BufferedReader input = null;
-        File file = new File(fileName);
-        try {
-            input = new BufferedReader(new FileReader(file));
-            String reader = input.readLine();
-            int line = 0;
-            while (reader != null) {
-                if (find.equalsIgnoreCase(reader.substring(33, reader.length()))) {
-                    System.out.println((++line) + "° movie = " + reader);
-                }
-                reader = input.readLine();
-            }
-            System.out.println(line+" Registros encontrados");
-            input.close();
-        } catch (FileNotFoundException ex) {
-            ex.printStackTrace(System.out);
-        } catch (IOException ex) {
-            ex.printStackTrace(System.out);
-        } finally {
-            try {
-                input.close();
-            } catch (IOException ex) {
-                ex.printStackTrace(System.out);
-            }
-        }
+    public void findMovie(String nameFile, String find) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
     public void startFile(String fileName) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-
+    
 }

@@ -46,10 +46,10 @@ public class DataAccessImpl implements DataAccess {
             input.close();
         } catch (FileNotFoundException ex) {
             ex.printStackTrace();
-            throw new ReadingDataEx("Excepcion al listar peliculas" + ex.getMessage());
+            throw new ReadingDataEx("Excepcion al listar peliculas " + ex.getMessage());
         } catch (IOException ex) {
             ex.printStackTrace();
-            throw new ReadingDataEx("Excepcion al listar peliculas" + ex.getMessage());
+            throw new ReadingDataEx("Excepcion al listar peliculas " + ex.getMessage());
         }
         return movies;
     }
@@ -64,7 +64,7 @@ public class DataAccessImpl implements DataAccess {
             System.out.println("La pelicula: " + movie + " se agrego correctamente en el archivo: " + fileName);
         } catch (IOException ex) {
             ex.printStackTrace();
-            throw new WritingDataEx("Excepcion al gurdar pelicula." + ex.getMessage());
+            throw new WritingDataEx("Excepcion al gurdar pelicula " + ex.getMessage());
         }
     }
 
@@ -77,29 +77,43 @@ public class DataAccessImpl implements DataAccess {
             String line = input.readLine();
             int index = 0;
             while (line != null) {
-                if(find != null && find.equalsIgnoreCase(line)){
-                    result = "Pelicula"+ line+" encontrada en el indice"+(index++);
+                if (find != null && find.equalsIgnoreCase(line)) {
+                    result = "Pelicula" + line + " encontrada en el indice " + (index++);
                     //break;
-                }                
+                }
             }
             input.close();
         } catch (FileNotFoundException ex) {
             ex.printStackTrace();
-            throw new ReadingDataEx("Excepcion al buscar pelicula" + ex.getMessage());
+            throw new ReadingDataEx("Excepcion al buscar pelicula " + ex.getMessage());
         } catch (IOException ex) {
-            throw new ReadingDataEx("Excepcion al buscar pelicula" + ex.getMessage());
+            ex.printStackTrace();
+            throw new ReadingDataEx("Excepcion al buscar pelicula " + ex.getMessage());
         }
         return result;
     }
 
     @Override
     public void create(String fileName) throws DataAccessEx {
+        File file = new File(fileName);
+        try {
+            PrintWriter output = new PrintWriter(new FileWriter(file));
+            output.close();
+            System.out.println("Archivo " + fileName + " creado correctamente");
+        } catch (IOException ex) {
+            ex.printStackTrace();
+            throw new DataAccessEx("Error al crear archivo " + ex.getMessage());
+        }
 
     }
 
     @Override
     public void delete(String fileName) throws DataAccessEx {
-
+        File file = new File(fileName);
+        if (file.exists()) {
+            file.delete();
+        }
+        System.out.println("El archivo " + fileName + "fue borrado");
     }
 
 }

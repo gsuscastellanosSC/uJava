@@ -6,7 +6,6 @@
 package programingWithJava.co.com.sc.movies.test;
 
 import java.util.Scanner;
-import javax.xml.catalog.Catalog;
 import programingWithJava.co.com.sc.movies.business.MovieCatalog;
 import programingWithJava.co.com.sc.movies.business.MoviesCatalogImpl;
 
@@ -35,23 +34,23 @@ public class MoviesTest {
             option = Integer.parseInt(sc.nextLine());
             switch (option) {
                 case 1:
-                    movieCatalog = validateMovieCatalog(movieCatalog);
+
                     break;
                 case 2:
-                    movieCatalog = validateMovieCatalog(movieCatalog);
+
                     System.out.println("\nIntroduce el nombre de una pelicula a agregar:");
                     fileName = sc.nextLine();
-                    movieCatalog.addMovie(fileName, "/home/sc/Documents/github/uJava/Catalog/movies.txt");
+
                     break;
                 case 3:
-                    movieCatalog = validateMovieCatalog(movieCatalog);
-                    movieCatalog.listMovies("/home/sc/Documents/github/uJava/Catalog/movies.txt");
+
+                    //movieCatalog.listMovies("/home/sc/Documents/github/uJava/Catalog/movies.txt");
                     break;
                 case 4:
-                    movieCatalog = validateMovieCatalog(movieCatalog);
+
                     System.out.println("\nIntroduce el nombre de una pelicula a buscar:");
                     fileName = sc.nextLine();
-                    movieCatalog.findMovie("/home/sc/Documents/github/uJava/Catalog/movies.txt", fileName);
+
                     break;
                 case 0:
                     System.out.println("\nTerminando la app...");
@@ -61,9 +60,5 @@ public class MoviesTest {
                     System.out.println("\nLa opción: " + option + ", no es valida.");
             }
         } while (option != 0);
-    }
-
-    public static MovieCatalog validateMovieCatalog(MovieCatalog movieCatalog) {
-        return (movieCatalog == null) ? new MoviesCatalogImpl() : movieCatalog;
     }
 }
