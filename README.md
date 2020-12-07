@@ -429,6 +429,17 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
                 lastName VARCHAR(45)NOT NULL,
                 mail VARCHAR(45)NOT NULL,
                 phone VARCHAR(45)NOT NULL);
+**Class#169**
+    **169. Sentencias DML en Mysql**
+        Data Manipulation Language:
+            * SELECT
+            * INSERT
+            * UPDATE
+            * DELETE
+        Ejem:
+            INSERT INTO person (name,lastName,mail,phone)values('Jesus','Castellanos','jesuscastellanospaez@gmail.com','3133508101');
+        How reset auto increment:
+            ALTER TABLE ${person} AUTO_INCREMENT = 1;
 **Links**
     How Install MySQL:
         https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04-es
