@@ -448,6 +448,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     **172. Cadena de Conexión a Mysql**
 **Class#173**
     **173. Conexión desde Java con JDBC**
+**Class#174**
+    **174. Procesando el resultado con ResultSet**
 **Links**
     How Install MySQL:
         https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04-es
