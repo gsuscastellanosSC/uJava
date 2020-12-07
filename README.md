@@ -419,6 +419,16 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     **166. Solución Laboratorio Final Programación con Java - parte 12**
 **Class#167**
     **167. Ejercicio: Instalación de MySql 8**
+**Class#168**
+    **168. Ejercicio: Creación Base de Datos en MySql 8**
+        Data definition Language DDL
+            1.- create database test;
+            2.- CREATE TABLE test.person ( 
+                id_person INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+                name VARCHAR(45)NOT NULL,
+                lastName VARCHAR(45)NOT NULL,
+                mail VARCHAR(45)NOT NULL,
+                phone VARCHAR(45)NOT NULL);
 **Links**
     How Install MySQL:
         https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04-es
