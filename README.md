@@ -438,8 +438,10 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
             * DELETE
         Ejem:
             INSERT INTO person (name,lastName,mail,phone)values('Jesus','Castellanos','jesuscastellanospaez@gmail.com','3133508101');
-        How reset auto increment:
+        How reset auto increment in mySql:
             ALTER TABLE ${person} AUTO_INCREMENT = 1;
+**Class#170**
+    **170. Sentencias DML en Mysql - parte 2**
 **Links**
     How Install MySQL:
         https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04-es
