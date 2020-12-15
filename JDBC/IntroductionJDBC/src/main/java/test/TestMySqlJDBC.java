@@ -16,7 +16,7 @@ public class TestMySqlJDBC {
         String url = "jdbc:mysql://localhost:3306/test?useSSL=false&useTimezone=true&serverTimezone=UTC&allowPublicKeyRetrieval=true";
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection connection = DriverManager.getConnection(url, "sc", "GsusC292020*");
+            Connection connection = DriverManager.getConnection(url, "root", "admin");
             Statement instruction = connection.createStatement();
             String sql = "select id_person, name, lastName, mail, phone from person";
             ResultSet result = instruction.executeQuery(sql);

@@ -450,6 +450,10 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     **173. Conexión desde Java con JDBC**
 **Class#174**
     **174. Procesando el resultado con ResultSet**
+**Class#175**
+    **175. Ejercicio: Manejo de JDBC - parte 1 - MySql 8**
+***Class#176**
+    **176. Ejercicio: Manejo de JDBC - parte 2 - MySql 8**
 **Links**
     How Install MySQL:
         https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04-es
