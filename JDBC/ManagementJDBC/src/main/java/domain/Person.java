@@ -10,6 +10,7 @@ public class Person {
     private String name;
     private String lastName;
     private String mail;
+    private String phone;
 
     public Person() {
     }
@@ -18,17 +19,19 @@ public class Person {
         this.idPerson = idPerson;
     }
 
-    public Person(String name, String lastName, String mail) {
+    public Person(String name, String lastName, String mail, String phone) {
         this.name = name;
         this.lastName = lastName;
         this.mail = mail;
+        this.phone = phone;
     }
 
-    public Person(double idPerson, String name, String lastName, String mail) {
+    public Person(double idPerson, String name, String lastName, String mail, String phone) {
         this.idPerson = idPerson;
         this.name = name;
         this.lastName = lastName;
         this.mail = mail;
+        this.phone = phone;
     }
 
     public double getIdPerson() {
@@ -59,8 +62,16 @@ public class Person {
         return mail;
     }
 
+    public String getPhone() {
+        return phone;
+    }
+
     public void setMail(String mail) {
         this.mail = mail;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 
     @Override
@@ -70,6 +81,7 @@ public class Person {
         sb.append(", name=").append(name);
         sb.append(", lastName=").append(lastName);
         sb.append(", mail=").append(mail);
+        sb.append(", phone=").append(phone);
         sb.append('}');
         return sb.toString();
     }

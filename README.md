@@ -457,6 +457,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
 **Class#177**
     **177. Ejercicio: Manejo de JDBC - parte 3 - MySql 8**
         DAO => Data Access Object
+**Class#178**
+    **178. Ejercicio: Manejo de JDBC - parte 4**
 **Links**
     How Install MySQL:
         https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04-es

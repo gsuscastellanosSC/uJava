@@ -26,8 +26,8 @@ public class ConnectionClass {
         return DriverManager.getConnection(JDBC_URL, JDBC_USER, JDBC_PASSWORD);
     }
 
-    public static void close(ResultSet rs) throws SQLException {
-        rs.close();
+    public static void close(ResultSet resultSet) throws SQLException {
+        resultSet.close();
     }
 
     public static void close(Statement statement) throws SQLException {
@@ -38,7 +38,7 @@ public class ConnectionClass {
         preparedStatement.close();
     }
 
-    public static void clonse(Connection connection) throws SQLException {
+    public static void close(Connection connection) throws SQLException {
         connection.close();
     }
 }
