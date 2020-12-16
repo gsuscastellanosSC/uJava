@@ -77,7 +77,7 @@ public class Person {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("Person{idPerson=").append(idPerson);
+        sb.append("\nPerson{idPerson=").append(idPerson);
         sb.append(", name=").append(name);
         sb.append(", lastName=").append(lastName);
         sb.append(", mail=").append(mail);
