@@ -15,7 +15,8 @@ import java.util.List;
  */
 public class PersonDAO {
 
-    private static final String SQL_SELECT = "select id_person, name, lastName, mail, phone from person";
+    private static final String SQL_SELECT = "SELECT id_person, name, lastName, mail, phone FROM person";
+    private static final String SQL_INSERT = "INSERT INTO test.person (name, lastName, mail, phone) VALUES (?, ?, ?, ?)";
 
     public List<Person> select() {
         List<Person> persons = new ArrayList<>();
@@ -32,7 +33,7 @@ public class PersonDAO {
             }
         } catch (SQLException ex) {
             ex.printStackTrace(System.out);
-        }finally{
+        } finally {
             try {
                 ConnectionClass.close(resultSet);
                 ConnectionClass.close(preparedStatement);
@@ -42,5 +43,31 @@ public class PersonDAO {
             }
         }
         return persons;
+    }
+
+    public int insert(Person person) {
+        Connection connection = null;
+        PreparedStatement preparedStatement = null;
+        int records = 0;
+        try {
+            connection = getConnection();
+            preparedStatement = connection.prepareStatement(SQL_INSERT);
+            preparedStatement.setString(1, person.getName());
+            preparedStatement.setString(2, person.getLastName());
+            preparedStatement.setString(3, person.getMail());
+            preparedStatement.setString(4, person.getPhone());
+            records = preparedStatement.executeUpdate();
+        } catch (SQLException ex) {
+            ex.printStackTrace(System.out);
+        } finally {
+            try {
+                ConnectionClass.close(preparedStatement);
+                ConnectionClass.close(connection);
+            } catch (SQLException ex) {
+                ex.printStackTrace(System.out);
+            }
+
+        }
+        return records;
     }
 }
