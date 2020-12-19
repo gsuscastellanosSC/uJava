@@ -17,7 +17,7 @@ public class PersonDAO {
 
     private static final String SQL_SELECT = "SELECT id_person, name, lastName, mail, phone FROM person";
     private static final String SQL_INSERT = "INSERT INTO test.person (name, lastName, mail, phone) VALUES (?, ?, ?, ?)";
-    private static final String SQL_DELETE = "DELETE FROM test.person where id_person = ?";
+    private static final String SQL_DELETE = "DELETE FROM test.person WHERE id_person = ?";
     private static final String SQL_UPDATE = "UPDATE test.person SET  name=?, lastName=?, mail=?, phone=? WHERE id_person=?";
 
     public List<Person> select() {
