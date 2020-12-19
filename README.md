@@ -465,6 +465,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     **180. Ejercicio: Manejo de JDBC - parte 6**
 **Class#181**
     **181. Ejercicio: Manejo de JDBC - parte 7**
+**Class#182**
+    **182. Ejercicio: Manejo de JDBC - parte 8**
 **Links**
     How Install MySQL:
         https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04-es
