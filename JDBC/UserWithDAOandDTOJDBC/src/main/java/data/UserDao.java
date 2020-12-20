@@ -11,7 +11,7 @@ import java.util.List;
 
 /**
  *
- * @author UserQV
+ * @author SC
  */
 public interface UserDao {
 
