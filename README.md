@@ -471,6 +471,9 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     **183. Ejercicio: Manejo de JDBC - parte 9**
 **Class#184**
     **184. Laboratorio: Manejo de Usuarios en JDBC con Mysql 8**
+**Class#185**
+    **185. Solución: Manejo de Usuarios en JDBC**
+        create table test.user ( id_user INT auto_increment not null primary key, user_name VARCHAR(45)not null, password VARCHAR(45)not null);
 **Links**
     How Install MySQL:
         https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04-es
