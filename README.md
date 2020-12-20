@@ -480,6 +480,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     **187. Ejercicio: Manejo de Transacciones con JDBC**
 **Class#188**
     **188. Laboratorio: Manejo de Transacciones con JDBC**
+**Class#189**
+    **189. Lección: Patrones de Diseño y Buenas Prácticas**
 **Links**
     How Install MySQL:
         https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04-es
