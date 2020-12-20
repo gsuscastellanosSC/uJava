@@ -482,6 +482,10 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     **188. Laboratorio: Manejo de Transacciones con JDBC**
 **Class#189**
     **189. Lección: Patrones de Diseño y Buenas Prácticas**
+**Class#190**
+    **190. Ejercicio: Creación Capa de Datos**
+        DAO => Data Access Object
+        DTO => Data transfer Object
 **Links**
     How Install MySQL:
         https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04-es
