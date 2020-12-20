@@ -476,6 +476,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
         create table test.user ( id_user INT auto_increment not null primary key, user_name VARCHAR(45)not null, password VARCHAR(45)not null);
 **Class#186**
     **186. Lección: Transacciones con JDBC**
+**Class#187**
+    **187. Ejercicio: Manejo de Transacciones con JDBC**
 **Links**
     How Install MySQL:
         https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04-es
