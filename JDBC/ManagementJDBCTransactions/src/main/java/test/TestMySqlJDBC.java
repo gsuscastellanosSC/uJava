@@ -38,7 +38,7 @@ public class TestMySqlJDBC {
                     case 3:
                         for (int i = 10001; i <= 10010; i++) {
                             System.out.println("Name " + i + "lastName " + i + "mail " + i + "phone " + i);
-                            personDao.insert(new Person("Name " + i, "lastName " + i, "mail " + i, "phone " + i));
+                            personDao.insert(new Person("NameNameNameNameNameNameNameNameNameNameNameNameNameNameNameNameNameNameNameNameNameNameNameNameNameNameNameNameNameNameNameNameNameNameNameNameNameName " + i, "lastName " + i, "mail " + i, "phone " + i));
                         }
                         break;
                     case 4:
