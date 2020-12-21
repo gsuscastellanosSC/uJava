@@ -490,6 +490,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     **191. Lección: Manejo de Pool de Conexiones**
 **Class#192**
     **192. Ejercicio: Manejo de Pool de Conexiones**
+**Class#193**
+    **193. Nota Importante de HTML**
 **Links**
     How Install MySQL:
         https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04-es
