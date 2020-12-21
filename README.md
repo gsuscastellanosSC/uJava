@@ -500,6 +500,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     **196. Instalación de Glassfish 5.0 y JDK 1.8**
 **Class#197**
     **197. Ejercicio: Hola Mundo Java Web**
+**Class#198**
+    **198. Ejercicio: HolaMundo con Servlets**
 **Links**
     Download glassfish:
         https://javaee.github.io/glassfish/download
