@@ -486,6 +486,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     **190. Ejercicio: Creación Capa de Datos**
         DAO => Data Access Object
         DTO => Data transfer Object
+**Class#191**
+    **191. Lección: Manejo de Pool de Conexiones**
 **Links**
     How Install MySQL:
         https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04-es
