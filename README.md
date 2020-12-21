@@ -496,7 +496,11 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     **194. Nivel: Servlets y JSP's**
 **Class#195**
     **195. Lección: Introducción a WWW (World Wide Web)**
+**Class#196**
+    **196. Instalación de Glassfish 5.0 y JDK 1.8**
 **Links**
+    Download glassfish:
+        https://javaee.github.io/glassfish/download
     How Install MySQL:
         https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04-es
     Download MySQL:
