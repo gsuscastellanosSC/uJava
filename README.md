@@ -498,6 +498,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     **195. Lección: Introducción a WWW (World Wide Web)**
 **Class#196**
     **196. Instalación de Glassfish 5.0 y JDK 1.8**
+**Class#197**
+    **197. Ejercicio: Hola Mundo Java Web**
 **Links**
     Download glassfish:
         https://javaee.github.io/glassfish/download
