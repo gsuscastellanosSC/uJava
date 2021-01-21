@@ -502,7 +502,7 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     **197. Ejercicio: Hola Mundo Java Web**
 **Class#198**
     **198. Ejercicio: HolaMundo con Servlets**
-**Class#199**    
+**Class#199**  
     **199. Lección: Concepto de los Servlets**
         Get:
             Datos en la URL. 
@@ -516,6 +516,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
             3. Se ejecuta el método init().
             4. Se ejecuta el método service().
             5. Se ejecuta el método destroy().
+**Class#200**
+    **200. Ejercicio: Procesamiento de Parámetros**
 **Links**
     Download glassfish:
         https://javaee.github.io/glassfish/download
