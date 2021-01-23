@@ -7,13 +7,12 @@
         <script type="text/javascript" src="resources/funcions.js"></script>
     </head>
     <body>
-        <h1>Manage Forms with HTML</h1>
         <form name="form" action="form" method="post"
               onsubmit="return validateForm(this)">
             <input type="hidden" name="inputHidden" value="valueHidden"/>
             <table width="200" id="enfasis-columna">
                 <caption>
-                    Formo sigin
+                    Manage Forms with HTML
                 </caption>
                 <tr>
                     <td class="columna">
@@ -30,7 +29,7 @@
                     </td>
                     <td>
                         <input class="default" type="password" name="password"
-                               value="Escribir password" onfocus="this.select()"/>
+                               value="" onfocus="this.select()"/>
                     </td>
                 </tr>
                 <tr>
@@ -38,13 +37,13 @@
                         Tecnologías de Internet:(*)
                     </td>
                     <td>
-                        Java <input type="checkbox" name="tecn" value="java">
+                        Java <input type="checkbox" name="tec" value="java">
                         &nbsp;&nbsp;&nbsp;
-                        .Net <input type="checkbox" name="tecn" value="net">
+                        .Net <input type="checkbox" name="tec" value="net">
                         &nbsp;&nbsp;&nbsp;
-                        PHP <input type="checkbox" name="tecn" value="PHP">
+                        PHP <input type="checkbox" name="tec" value="PHP">
                         &nbsp;&nbsp;&nbsp;
-                        Python <input type="checkbox" name="tecn" value="Phyton">
+                        Python <input type="checkbox" name="tec" value="Phyton">
                         &nbsp;&nbsp;&nbsp;
                     </td>
                 </tr> 
@@ -53,9 +52,9 @@
                         Genero:(*)
                     </td>
                     <td>
-                        Hombre <imput type="radio" name="genero" values="H">
+                        Hombre <input type="radio" name="genero" values="H">
                         &nbsp;&nbsp;&nbsp;
-                        Mujer <imput type="radio" name="genero" values="M">
+                        Mujer <input type="radio" name="genero" values="M">
                         &nbsp;&nbsp;&nbsp;
                     </td>
                 </tr>
