@@ -526,8 +526,18 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     203. Ejercicio: Manejo de Formularios HTML con Servlets - parte 3
 **Class#204**
     204. Ejercicio: Manejo de Formularios HTML con Servlets - parte 4
-**Class#205**    
+**Class#205**
     205. Ejercicio: Manejo de Formularios HTML con Servlets - parte 5
+**Class#206**    
+    206. Lección: Manejo de Cabeceros HTTP
+        Métodos de la clase HttpServletRequest:
+            getHeader()
+            getHeaders()
+            getHeaderNames()
+            getCookies()
+            .
+            .
+            .
 **Links**
     Download glassfish:
         https://javaee.github.io/glassfish/download
