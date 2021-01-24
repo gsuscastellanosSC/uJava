@@ -540,6 +540,13 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
             .
 **Class#207**
     207. Ejercicio: Manejo de Cabeceros HTTP
+**Class#208**
+    208. Lección: Códigos de Estado con Servlets
+        Respuestas informativas (100–199),
+        Respuestas satisfactorias (200–299),
+        Redirecciones (300–399),
+        Errores de los clientes (400–499),
+        y errores de los servidores (500–599).
 **Links**
     Download glassfish:
         https://javaee.github.io/glassfish/download
