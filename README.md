@@ -547,6 +547,10 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
         Redirecciones (300–399),
         Errores de los clientes (400–499),
         y errores de los servidores (500–599).
+**Class#209**
+    209. Ejercicio: Códigos de Estado con Servlets
+**Class#210**
+    210. Lección: Cabeceros de Respuesta con Servlets
 **Links**
     Download glassfish:
         https://javaee.github.io/glassfish/download
