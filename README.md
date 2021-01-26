@@ -553,6 +553,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     210. Lección: Cabeceros de Respuesta con Servlets
 **Class#211**
     211. Ejercicio: Cabeceros de Respuesta con Servlets
+**Class#212**    
+    212. Lección: Manejo de Cookies
 **Links**
     Apache:    
         https://poi.apache.org/
