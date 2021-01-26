@@ -551,7 +551,13 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     209. Ejercicio: Códigos de Estado con Servlets
 **Class#210**
     210. Lección: Cabeceros de Respuesta con Servlets
+**Class#211**
+    211. Ejercicio: Cabeceros de Respuesta con Servlets
 **Links**
+    Apache:    
+        https://poi.apache.org/
+    Class SimpleDateFormat:
+        https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/text/SimpleDateFormat.html
     Download glassfish:
         https://javaee.github.io/glassfish/download
     How Install MySQL:
