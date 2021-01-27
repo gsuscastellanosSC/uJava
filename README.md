@@ -561,6 +561,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     214. Ejercicio: Contador de Visitas con Cookies
 **Class#215**    
     215. Lección: Manejo de Http Session
+**Class#216**
+    216. Ejercicio: Manejo de Http Session
 **Links**
     Apache:    
         https://poi.apache.org/
