@@ -563,8 +563,18 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     215. Lección: Manejo de Http Session
 **Class#216**
     216. Ejercicio: Manejo de Http Session
-**Class#217**    
+**Class#217**
     217. Ejercicio: Carrito de Compras con HTTPSession
+**Class#218**    
+    218. Lección: Introducción a los JSPs
+        (Java Server Pages)
+        Ciclo de Vida de un JSP:
+            1. Se traduce el JSP a un Servlet.
+            2. Se compila Y se carga la clase del servlet.
+            2. Se crea un subproceso(hilo) del Servlet.
+            3. Se ejecuta el método init().
+            4. Se ejecuta el método service().
+            5. Se ejecuta el método destroy().
 **Links**
     Apache:    
         https://poi.apache.org/
