@@ -563,6 +563,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
     215. Lección: Manejo de Http Session
 **Class#216**
     216. Ejercicio: Manejo de Http Session
+**Class#217**    
+    217. Ejercicio: Carrito de Compras con HTTPSession
 **Links**
     Apache:    
         https://poi.apache.org/
