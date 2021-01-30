@@ -601,6 +601,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
             => session: Es el objeto HttpSession asociado con el objeto request.
             => Se puede deshabilitar el uso de sesiones en un JSP
             => application: Es el objeto ServletContext que se obtiene a partir del método getervletContext() en un servlet.
+**Class#221**
+    Ejercicio: Expresiones con JSPs
 **Links**
     Apache:    
         https://poi.apache.org/
