@@ -603,6 +603,8 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
             => application: Es el objeto ServletContext que se obtiene a partir del método getervletContext() en un servlet.
 **Class#221**
     Ejercicio: Expresiones con JSPs
+**Class#222**    
+    222. Ejercicio: Scriptlets con JSPs
 **Links**
     Apache:    
         https://poi.apache.org/
