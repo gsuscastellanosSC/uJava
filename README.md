@@ -575,8 +575,32 @@ https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-
             3. Se ejecuta el método init().
             4. Se ejecuta el método service().
             5. Se ejecuta el método destroy().
-**Class#219**    
+**Class#219**
     219. Ejercicio: Introducción a los JSPs
+**Class#220**
+    220. Lección: Elementos de un JSP
+        Expressions:
+            * Sintaxis: <%=expresion %>(Tag o etiqueta de expresión).
+            => La expresión se evalua y se inserta en la salida del servlet.
+            => Es equivalente a out.prinln(expresion).
+        Scriplets:
+            *Sintaxis: <% codigoJava %>(no es recomendado mucho código java).
+            => El código Java se inserta en el método service del Servlet generado.
+            => Puede ser cualquier código Java valido.
+        Declaraciones:
+            *Sintaxis: <%! codigoJava %>(no es muy usado).
+            => Se utiliza para agregar código a la clase del Servlet generado.
+            => Se pueden declarar variables o métodos que pertenecen a la calse.
+        Sintaxis XML:
+            => Cada elemento JSP tiene su equivalente en sintaxis XML.
+            => Esta sintaxis se utiliza para tener una mayor compatibilidad, por ejemplo, con herramientas visuales.
+        Variables Implícitas en los JSP´S:
+            => request: Es el objeto HTTPServletRequest
+            => response: Es el objeto HttpServletResponse
+            => out: Es el objeto JspWriter (Equivalente a PrintWriter)
+            => session: Es el objeto HttpSession asociado con el objeto request.
+            => Se puede deshabilitar el uso de sesiones en un JSP
+            => application: Es el objeto ServletContext que se obtiene a partir del método getervletContext() en un servlet.
 **Links**
     Apache:    
         https://poi.apache.org/
