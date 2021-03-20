@@ -607,12 +607,14 @@
     222. Ejercicio: Scriptlets con JSPs
 # Class#223    
     223. Ejercicio: Declaraciones con JSPs
-# Class#224    
+# Class#224
     224. Ejercicio: Documentos con JSPs (jspx)
         Uso de declaraciones:
             <jsp:declaration>
                 Codigo Java
             </jsp:declaration>
+# Class#225    
+    225. Lección: Directivas con JSPs
 # Links
     Apache:    
         https://poi.apache.org/
