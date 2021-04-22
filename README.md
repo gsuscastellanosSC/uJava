@@ -630,8 +630,10 @@
     231. Lección: Manejo de JavaBeans con JSPs
 # Class#232
     232. Ejercicio: Manejo de JavaBeans con JSPs
-# Class#233    
+# Class#233
     233. Lección: Manejo de EL (Expression Language) con JSPs
+# Class#234    
+    234. Ejercicio: Manejo de EL (Expression Language) con JSPs
 # Links
     Apache:    
         https://poi.apache.org/
