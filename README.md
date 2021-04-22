@@ -615,6 +615,7 @@
             </jsp:declaration>
 # Class#225    
     225. Lección: Directivas con JSPs
+        * Permiten el control del comportamiento de un JSP.
 # Links
     Apache:    
         https://poi.apache.org/
