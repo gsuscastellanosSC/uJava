@@ -634,6 +634,8 @@
     233. Lección: Manejo de EL (Expression Language) con JSPs
 # Class#234    
     234. Ejercicio: Manejo de EL (Expression Language) con JSPs
+# Class#235
+    235. Lección: Manejo de JSTL en JSPs
 # Links
     Apache:    
         https://poi.apache.org/
