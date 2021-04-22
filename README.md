@@ -616,7 +616,19 @@
 # Class#225    
     225. Lección: Directivas con JSPs
         * Permiten el control del comportamiento de un JSP.
-# Links
+# Class#226   
+    226. Ejercicio: Excel JSPs con Directivas
+# Class#227
+    227. Ejercicio: Manejo de Excepciones con Directivas en JSPs
+# Class#228
+    228. Lección: Inclusión de Archivos con JSPs
+# Class#229
+    229. Ejercicio: Inclusión Estática con JSPs
+# Class#230
+    230. Ejercicio: Inclusión Dinámica con JSPs
+# Class#231
+    231. Lección: Manejo de JavaBeans con JSPs
+# Linksq
     Apache:    
         https://poi.apache.org/
     Class SimpleDateFormat:

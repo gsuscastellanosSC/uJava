@@ -1,3 +1,4 @@
+<%@page errorPage="/WEB-INF/error.jsp" %>
 <%@page import="utilities.Conversions, java.util.Date" %>
 <%@page contentType="application/vnd.ms-excel"  %>
 <%
@@ -21,7 +22,7 @@
             <tr>
                 <td>1. Java</td>
                 <td>We'll Learn basic syntax java</td>
-                <td><%= Conversions.format(new Date())%></td>
+                <td><%= Conversions.format("500")%></td>
             </tr>
             <tr>
                 <td>2. Java</td>
