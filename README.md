@@ -636,6 +636,13 @@
     234. Ejercicio: Manejo de EL (Expression Language) con JSPs
 # Class#235
     235. Lección: Manejo de JSTL en JSPs
+# Class#236
+    236. Ejercicio: Manejo de JSTL en JSPs
+        orden en el que se realiza la busqueda al usar Expression:
+            1. page
+            2. request
+            3. session
+            4. application
 # Links
     Apache:    
         https://poi.apache.org/
