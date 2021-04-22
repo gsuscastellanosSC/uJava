@@ -628,7 +628,9 @@
     230. Ejercicio: Inclusión Dinámica con JSPs
 # Class#231
     231. Lección: Manejo de JavaBeans con JSPs
-# Linksq
+# Class#232
+    232. Ejercicio: Manejo de JavaBeans con JSPs
+# Links
     Apache:    
         https://poi.apache.org/
     Class SimpleDateFormat:
