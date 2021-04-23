@@ -1,6 +1,6 @@
 CREATE DATABASE databaseControlClientes;
 
-CREATE TABLE `cliente` (
+CREATE TABLE databaseControlClientes.cliente (
   `id_cliente` int(11) NOT NULL AUTO_INCREMENT,
   `nombre` varchar(45) DEFAULT NULL,
   `apellido` varchar(45) DEFAULT NULL,
@@ -15,9 +15,9 @@ CREATE TABLE `cliente` (
 -- Dumping data for table `cliente`
 --
 
-LOCK TABLES `cliente` WRITE;
+LOCK TABLES databaseControlClientes.cliente WRITE;
 /*!40000 ALTER TABLE `cliente` DISABLE KEYS */;
-INSERT INTO `cliente` VALUES (1,'Juan','Perez','jperez@mail.com3','55332211224',100),(2,'Karla','Gomez','kgomez@mail.com','4455661133',80),(18,'Carlos','Lara','clara@mail.com','5544-1133',70);
+INSERT INTO databaseControlClientes.cliente VALUES (1,'Juan','Perez','jperez@mail.com3','55332211224',100),(2,'Karla','Gomez','kgomez@mail.com','4455661133',80),(18,'Carlos','Lara','clara@mail.com','5544-1133',70);
 /*!40000 ALTER TABLE `cliente` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -33,5 +33,5 @@ UNLOCK TABLES;
 -- Dump completed on 10-15 10:49:13
 
 
-select * from cliente c;
+select * from databaseControlClientes.cliente c;
 
