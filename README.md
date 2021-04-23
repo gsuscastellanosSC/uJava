@@ -653,7 +653,11 @@
     240. Proyecto Final - Control Clientes
 # Class#241
     241. Creación de la Base de Datos - Control de Clientes
+# Class#242   
+    242. Agregar el Driver de Mysql a Glassfish
 # Links
+    Driver JDBC MySql:
+        https://dev.mysql.com/downloads/connector/j/
     Apache:    
         https://poi.apache.org/
     Class SimpleDateFormat:
