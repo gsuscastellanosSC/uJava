@@ -657,6 +657,8 @@
     242. Agregar el Driver de Mysql a Glassfish
 # Class#243    
     243. Creación del Proyecto Web - Control de Clientes
+# Class#244    
+    244. Agregar Librerías al proyecto - Control de Clientes
 # Links
     Driver JDBC MySql:
         https://dev.mysql.com/downloads/connector/j/
