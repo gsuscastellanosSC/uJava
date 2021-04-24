@@ -672,6 +672,8 @@
     249. Listado de Clientes - Básico
 # Class#250    
     250. Instalación de Bootstrap y Font Awesome
+# Class#251
+    251. Documentación de Bootstrap4
 # Links
     Driver JDBC MySql:
         https://dev.mysql.com/downloads/connector/j/
