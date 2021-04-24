@@ -682,6 +682,8 @@
     254. Pie de Página - Control de Clientes
 # Class#255
     255. Listado de Clientes - Control de Clientes
+# Class#256
+    256. Listado de Clientes - parte 2
 # Links
     Driver JDBC MySql:
         https://dev.mysql.com/downloads/connector/j/
