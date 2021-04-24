@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import javax.sql.DataSource;
 import org.apache.commons.dbcp2.BasicDataSource;
 
 public class ConnectionBD {
@@ -12,7 +13,7 @@ public class ConnectionBD {
     private static final String JDBC_USER = "root";
     private static final String JDBC_PASSWORD = "example";
 
-    public static BasicDataSource getDataSource() {
+    public static DataSource getDataSource() {
         BasicDataSource basicDataSource = new BasicDataSource();
         basicDataSource.setUrl(JDBC_URL);
         basicDataSource.setUsername(JDBC_USER);
@@ -41,7 +42,7 @@ public class ConnectionBD {
         }
     }
 
-    public static void Close(Connection connectionBD) {
+    public static void close(Connection connectionBD) {
         try {
             connectionBD.close();
         } catch (SQLException sQLException) {

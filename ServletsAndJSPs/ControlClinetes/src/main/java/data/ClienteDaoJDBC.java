@@ -10,15 +10,19 @@ import java.util.List;
 
 public class ClienteDaoJDBC {
 
-    private static final String SQL_SELECT = "SELECT id_cliente, nombre, apellidos, email, telefono, saldo"
-            + "FROM cliente";
-    private static final String SQL_SELECT_BY_ID = "SELECT id_cliente, nombre, apellidos, email, telefono, saldo"
-            + "FROM cliente WHERE id_cliente=?";
-    private static final String SQL_INSERT = "INSERT INTO cliente(nombre, apellidos, email, telefono, saldo)"
-            + "VALUES(?, ?, ?, ?, ?)";
-    private static final String SQL_UPDATE = "UPDATE cliente " + "SET nombre=?, apellidos=?, email=?, telefono=?, saldo=? WHERE id_cliente=?";
+    private static final String SQL_SELECT = "SELECT id_cliente, nombre, apellido, email, telefono, saldo "
+            + " FROM cliente";
 
-    private static final String SQL_DELETE = "DELETE FROM cliente WHERE id_cliente=?";
+    private static final String SQL_SELECT_BY_ID = "SELECT id_cliente, nombre, apellido, email, telefono, saldo "
+            + " FROM cliente WHERE id_cliente = ?";
+
+    private static final String SQL_INSERT = "INSERT INTO cliente(nombre, apellido, email, telefono, saldo) "
+            + " VALUES(?, ?, ?, ?, ?)";
+
+    private static final String SQL_UPDATE = "UPDATE cliente "
+            + " SET nombre=?, apellido=?, email=?, telefono=?, saldo=? WHERE id_cliente=?";
+
+    private static final String SQL_DELETE = "DELETE FROM cliente WHERE id_cliente = ?";
 
     public List<Cliente> listar() {
         Connection connection = null;
@@ -45,7 +49,7 @@ public class ClienteDaoJDBC {
         } finally {
             ConnectionBD.close(resultSet);
             ConnectionBD.close(preparedStatement);
-            ConnectionBD.Close(connection);
+            ConnectionBD.close(connection);
         }
         return clientes;
     }
@@ -76,7 +80,7 @@ public class ClienteDaoJDBC {
         } finally {
             ConnectionBD.close(resultSet);
             ConnectionBD.close(preparedStatement);
-            ConnectionBD.Close(connection);
+            ConnectionBD.close(connection);
         }
         return cliente;
     }
@@ -98,7 +102,7 @@ public class ClienteDaoJDBC {
             sQLException.printStackTrace(System.out);
         } finally {
             ConnectionBD.close(preparedStatement);
-            ConnectionBD.Close(connection);
+            ConnectionBD.close(connection);
         }
         return rows;
     }
@@ -121,7 +125,7 @@ public class ClienteDaoJDBC {
             sQLException.printStackTrace(System.out);
         } finally {
             ConnectionBD.close(preparedStatement);
-            ConnectionBD.Close(connection);
+            ConnectionBD.close(connection);
         }
         return rows;
     }
@@ -134,13 +138,13 @@ public class ClienteDaoJDBC {
             connection = ConnectionBD.getConnection();
             preparedStatement = connection.prepareStatement(SQL_DELETE);
             preparedStatement.setInt(1, cliente.getIdCliente());
-            
+
             rows = preparedStatement.executeUpdate();
         } catch (SQLException sQLException) {
             sQLException.printStackTrace(System.out);
         } finally {
             ConnectionBD.close(preparedStatement);
-            ConnectionBD.Close(connection);
+            ConnectionBD.close(connection);
         }
         return rows;
     }

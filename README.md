@@ -666,8 +666,10 @@
     246. Creación Clase de Dominio - Entidad Cliente
 # Class#247
     247. Creación Clase DAO - Cliente
-# Class#248    
+# Class#248 
     248. Creación Clase DAO - Cliente - parte 2
+# Class#249
+    249. Listado de Clientes - Básico
 # Links
     Driver JDBC MySql:
         https://dev.mysql.com/downloads/connector/j/
