@@ -678,6 +678,8 @@
     252. Cabecero de la Aplicación Control de Clientes
 # Class#253
     253. Barra de Navegación - Control de Clientes
+# Class#254
+    254. Pie de Página - Control de Clientes
 # Links
     Driver JDBC MySql:
         https://dev.mysql.com/downloads/connector/j/
