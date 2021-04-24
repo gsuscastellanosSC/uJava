@@ -1,6 +1,6 @@
 package data;
 
-import domain.Cliente;
+import model.Cliente;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

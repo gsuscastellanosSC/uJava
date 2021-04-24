@@ -670,6 +670,8 @@
     248. Creación Clase DAO - Cliente - parte 2
 # Class#249
     249. Listado de Clientes - Básico
+# Class#250    
+    250. Instalación de Bootstrap y Font Awesome
 # Links
     Driver JDBC MySql:
         https://dev.mysql.com/downloads/connector/j/

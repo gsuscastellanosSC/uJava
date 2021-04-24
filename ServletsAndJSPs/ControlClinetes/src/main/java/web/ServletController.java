@@ -1,7 +1,7 @@
 package web;
 
 import data.ClienteDaoJDBC;
-import domain.Cliente;
+import model.Cliente;
 import java.io.IOException;
 import java.util.List;
 import javax.servlet.ServletException;
