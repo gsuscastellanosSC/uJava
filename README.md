@@ -664,6 +664,8 @@
         private static final String JDBC_URL = "jdbc:mysql://gsuscastelsc.com:3306/databaseControlClientes?useSSL=false&useTimezone=true&serverTimezone=UTC&allowPublicKeyRetrieval=true";
 # Class#246
     246. Creación Clase de Dominio - Entidad Cliente
+# Class#247
+    247. Creación Clase DAO - Cliente
 # Links
     Driver JDBC MySql:
         https://dev.mysql.com/downloads/connector/j/
