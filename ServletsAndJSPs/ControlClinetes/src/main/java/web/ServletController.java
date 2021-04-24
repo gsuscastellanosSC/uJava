@@ -3,6 +3,7 @@ package web;
 import data.ClienteDaoJDBC;
 import model.Cliente;
 import java.io.IOException;
+import java.util.Iterator;
 import java.util.List;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -19,7 +20,16 @@ public class ServletController extends HttpServlet {
         List<Cliente> clientes = new ClienteDaoJDBC().listar();
         System.out.println("clientes = " + clientes);
         request.setAttribute("clientes", clientes);
+        request.setAttribute("totalClientes", clientes.size());
+        request.setAttribute("saldoTotal", calculateTotal(clientes));
         request.getRequestDispatcher("clientes.jsp").forward(request, response);
     }
 
+    private double calculateTotal(List<Cliente> clientes) {
+        double saldoTotal = 0;
+        for (Cliente cliente : clientes) {
+            saldoTotal += cliente.getSaldo();
+        }
+        return saldoTotal;
+    }
 }
