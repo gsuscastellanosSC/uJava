@@ -6,7 +6,6 @@
                 <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#agregarClienteModal">
                     <i class="fas fa-plus">Agregar cliente</i>
                 </a>
-
             </div>
         </div>
     </div>
