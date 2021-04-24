@@ -674,6 +674,8 @@
     250. Instalación de Bootstrap y Font Awesome
 # Class#251
     251. Documentación de Bootstrap4
+# Class#252
+    252. Cabecero de la Aplicación Control de Clientes
 # Links
     Driver JDBC MySql:
         https://dev.mysql.com/downloads/connector/j/
