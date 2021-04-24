@@ -10,7 +10,10 @@
         <title>Control de Clientes</title>
     </head>
     <body>
+        <!-- Header -->
         <jsp:include page="WEB-INF/pages/common/header.jsp"/>
+        <!-- Botones de navegación -->
+        <jsp:include page="WEB-INF/pages/common/bottons.jsp"/>
         <ul>
             <c:forEach var="cliente" items="${clientes}">
                 <li>${cliente.idCliente} ${cliente.nombre} ${cliente.apellido} ${cliente.saldo}</li>
