@@ -706,6 +706,8 @@
     266. Ejercicio: Hola Mundo con JSF
 # Class#267
     267. Lección - Managed Beans en JSF
+# Class#268    
+    268. Ejercicio - Managed Beans en JSF
 # Links
     Driver JDBC MySql:
         https://dev.mysql.com/downloads/connector/j/
