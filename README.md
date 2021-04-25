@@ -701,7 +701,11 @@
 # Class#264    
     264. Nivel: JavaServer Faces (JSF)
 # Class#265
-    256. Introducción a JavaServer Faces
+    265. Introducción a JavaServer Faces
+# Class#266
+    266. Ejercicio: Hola Mundo con JSF
+# Class#267
+    267. Lección - Managed Beans en JSF
 # Links
     Driver JDBC MySql:
         https://dev.mysql.com/downloads/connector/j/
