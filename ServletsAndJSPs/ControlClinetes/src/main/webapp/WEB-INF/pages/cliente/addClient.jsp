@@ -7,7 +7,7 @@
                     <span>&times;</span>
                 </button>
             </div>
-            <form action="${pageContext.request.contextPath}/ServletControlador?accion=insert" method="POST" class="was-validated">
+            <form action="${pageContext.request.contextPath}/ServletController?accion=insert" method="POST" class="was-validated">
                 <div class="modal-body">
                     <div class="form-group">
                         <label form="nombre">Nombre</label>

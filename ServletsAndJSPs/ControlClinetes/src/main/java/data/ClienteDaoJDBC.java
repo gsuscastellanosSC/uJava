@@ -58,31 +58,31 @@ public class ClienteDaoJDBC {
         Connection connection = null;
         PreparedStatement preparedStatement = null;
         ResultSet resultSet = null;
+        Cliente onlyCliente = new Cliente();
         try {
             connection = ConnectionBD.getConnection();
             preparedStatement = connection.prepareStatement(SQL_SELECT_BY_ID);
-            preparedStatement.setInt(1, cliente.getIdCliente());
-            resultSet = preparedStatement.executeQuery();
-            resultSet.absolute(1);//Primer elemento
-            String nombre = resultSet.getString("nombre");
-            String apellido = resultSet.getString("apellido");
-            String email = resultSet.getString("email");
-            String telefono = resultSet.getString("telefono");
-            double saldo = resultSet.getDouble("saldo");
+            int id = cliente.getIdCliente();
+            preparedStatement.setInt(1, id);
 
-            cliente.setNombre(nombre);
-            cliente.setApellido(apellido);
-            cliente.setEmail(email);
-            cliente.setTelefono(telefono);
-            cliente.setSaldo(saldo);
-        } catch (SQLException sQLException) {
-            sQLException.printStackTrace(System.out);
+            resultSet = preparedStatement.executeQuery();
+            if (resultSet.next()) {
+                int idCliente = resultSet.getInt("id_cliente");
+                String nombre = resultSet.getString("nombre");
+                String apellido = resultSet.getString("apellido");
+                String email = resultSet.getString("email");
+                String telefono = resultSet.getString("telefono");
+                double saldo = resultSet.getDouble("saldo");
+                onlyCliente = new Cliente(idCliente, nombre, apellido, email, telefono, saldo);
+            }
+        } catch (SQLException ex) {
+            ex.printStackTrace(System.out);
         } finally {
             ConnectionBD.close(resultSet);
             ConnectionBD.close(preparedStatement);
             ConnectionBD.close(connection);
         }
-        return cliente;
+        return onlyCliente;
     }
 
     public int insertar(Cliente cliente) {

@@ -690,6 +690,8 @@
     258. Agregar Cliente - parte 2
 # Class#259
     259. Editar Cliente - parte 1
+# Class#260
+    260. Editar Cliente - parte 2
 # Links
     Driver JDBC MySql:
         https://dev.mysql.com/downloads/connector/j/

@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-@WebServlet("/ServletControlador")
+@WebServlet("/ServletController")
 public class ServletController extends HttpServlet {
 
     @Override
@@ -19,25 +19,23 @@ public class ServletController extends HttpServlet {
         String accion = request.getParameter("accion");
         if (accion != null) {
             switch (accion) {
-                case "edit":
+                case "editar":
                     this.editClient(request, response);
                     break;
-                 default:
-                     defaultAction(request, response);
+                default:
+                    defaultAction(request, response);
             }
-        }else{
+        } else {
             defaultAction(request, response);
         }
     }
-    
-    private void defaultAction(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
+
+    private void defaultAction(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         List<Cliente> clientes = new ClienteDaoJDBC().listar();
-        System.out.println("clientes = " + clientes);
         HttpSession session = request.getSession();
         session.setAttribute("clientes", clientes);
         session.setAttribute("totalClientes", clientes.size());
         session.setAttribute("saldoTotal", calculateTotal(clientes));
-        //request.getRequestDispatcher("clientes.jsp").forward(request, response);
         response.sendRedirect("clientes.jsp");
     }
 
@@ -57,10 +55,10 @@ public class ServletController extends HttpServlet {
                 case "insert":
                     this.insertClient(request, response);
                     break;
-                 default:
-                     defaultAction(request, response);
+                default:
+                    defaultAction(request, response);
             }
-        }else{
+        } else {
             defaultAction(request, response);
         }
     }
@@ -72,22 +70,26 @@ public class ServletController extends HttpServlet {
         String telefono = request.getParameter("telefono");
         double saldo;
         String saldoString = request.getParameter("saldo");
-        saldo = (saldoString != null && !"".equals(saldoString))?Double.parseDouble(saldoString):0;
-        
+        saldo = (saldoString != null && !"".equals(saldoString)) ? Double.parseDouble(saldoString) : 0;
+
         //Creamos el objeto cliente (modelo)
         Cliente cliente = new Cliente(nombre, apellido, email, telefono, saldo);
-        
+
         //Creamos el objeto en la base de datos
         int RegistrosModificados = new ClienteDaoJDBC().insertar(cliente);
-        
+
         //Redirigimos hacia acción por default
         this.defaultAction(request, response);
-    }       private void editClient(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-                int idCliente = Integer.parseInt(request.getParameter("idCliente"));        
+    }
+
+    private void editClient(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        //recuperamos el idCliente
+        int idCliente = Integer.parseInt(request.getParameter("idCliente"));
+
+        //recuperamos los valores del formulario editarCliente
         Cliente cliente = new ClienteDaoJDBC().findToClient(new Cliente(idCliente));
         request.setAttribute("cliente", cliente);
-        String jspEdit = "/WEB-INF/paginas/cliente/editClient.jsp";
-        request.getRequestDispatcher(jspEdit).forward(request, response);
+        String jspEditar = "/WEB-INF/pages/cliente/editClient.jsp";
+        request.getRequestDispatcher(jspEditar).forward(request, response);
     }
-    
 }
