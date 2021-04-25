@@ -698,6 +698,8 @@
     262. Eliminar Cliente - Control Clientes
 # Class#263
     263. Corrección Clase Conexión - Control Clientes
+# Class#264    
+    264. Nivel: JavaServer Faces (JSF)
 # Links
     Driver JDBC MySql:
         https://dev.mysql.com/downloads/connector/j/
