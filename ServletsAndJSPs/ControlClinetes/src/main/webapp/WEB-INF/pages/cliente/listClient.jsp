@@ -19,15 +19,15 @@
                     </thead>
                     <tbody>
                         <!-- Iteramos cada elemento de la lista de clientes -->
-                        <c:forEach var="cliente" items="${clientes}">
+                        <c:forEach var="cliente" items="${clientes}" varStatus="status">
                             <tr>
-                                <td>${cliente.idCliente}</td>
+                                <td>${status.count}</td>
                                 <td>${cliente.nombre} ${cliente.apellido}</td>
                                 <td>
                                     <fmt:formatNumber value="${cliente.saldo}" type="currency">
                                     </fmt:formatNumber></td>
                                 <th>
-                                    <a href="${pageContext.request.contextPath}/ServletControlador?accion=editar&idCliente=${cliente.idCliente}" class="btn btn-secondary">
+                                    <a href="${pageContext.request.contextPath}/ServletControlador?accion=edit&idCliente=${cliente.idCliente}" class="btn btn-secondary">
                                         <i class="fas fa-angle-double-right">Editar</i>
                                     </a>
                                 </th>

@@ -686,6 +686,10 @@
     256. Listado de Clientes - parte 2
 # Class#257
     257. Agregar Cliente - parte 1
+# Class#258
+    258. Agregar Cliente - parte 2
+# Class#259
+    259. Editar Cliente - parte 1
 # Links
     Driver JDBC MySql:
         https://dev.mysql.com/downloads/connector/j/
