@@ -696,6 +696,8 @@
     261. Guardar Cliente - Control Clientes
 # Class#262
     262. Eliminar Cliente - Control Clientes
+# Class#263
+    263. Corrección Clase Conexión - Control Clientes
 # Links
     Driver JDBC MySql:
         https://dev.mysql.com/downloads/connector/j/

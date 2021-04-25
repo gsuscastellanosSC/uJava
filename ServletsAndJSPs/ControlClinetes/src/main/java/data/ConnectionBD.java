@@ -13,13 +13,18 @@ public class ConnectionBD {
     private static final String JDBC_USER = "root";
     private static final String JDBC_PASSWORD = "example";
 
+    private static BasicDataSource dataSource;
+
     public static DataSource getDataSource() {
-        BasicDataSource basicDataSource = new BasicDataSource();
-        basicDataSource.setUrl(JDBC_URL);
-        basicDataSource.setUsername(JDBC_USER);
-        basicDataSource.setPassword(JDBC_PASSWORD);
-        basicDataSource.setInitialSize(50);
-        return basicDataSource;
+        if (dataSource == null) {
+            dataSource = new BasicDataSource();
+            BasicDataSource basicDataSource = new BasicDataSource();
+            dataSource.setUrl(JDBC_URL);
+            dataSource.setUsername(JDBC_USER);
+            dataSource.setPassword(JDBC_PASSWORD);
+            dataSource.setInitialSize(50);
+        }
+        return dataSource;
     }
 
     public static Connection getConnection() throws SQLException {
