@@ -700,6 +700,8 @@
     263. Corrección Clase Conexión - Control Clientes
 # Class#264    
     264. Nivel: JavaServer Faces (JSF)
+# Class#265
+    256. Introducción a JavaServer Faces
 # Links
     Driver JDBC MySql:
         https://dev.mysql.com/downloads/connector/j/
