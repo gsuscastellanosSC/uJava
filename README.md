@@ -708,6 +708,8 @@
     267. Lección - Managed Beans en JSF
 # Class#268    
     268. Ejercicio - Managed Beans en JSF
+# Class#269
+    269. Lección - Reglas de Navegación en JSF
 # Links
     Driver JDBC MySql:
         https://dev.mysql.com/downloads/connector/j/

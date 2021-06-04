@@ -35,3 +35,5 @@ UNLOCK TABLES;
 
 select * from databaseControlClientes.cliente c;
 
+
+
